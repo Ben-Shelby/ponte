@@ -1,0 +1,13 @@
+{
+  "updated": "2026-11-19",
+  "days": [
+    {"id": "2026-11-19", "kind": "actu", "theme": "Énergie et IA", "title": {"pt": "Os centros de dados vão usar energia verde", "fr": "Les data centers devront utiliser de l’énergie verte"}},
+    {"id": "2026-11-20", "kind": "actu", "theme": "Énergie", "title": {"pt": "Portugal entre os melhores da Europa", "fr": "Le Portugal parmi les meilleurs d’Europe"}},
+    {"id": "2026-11-21", "kind": "detente", "theme": "Sorties", "title": {"pt": "Um café em Lisboa", "fr": "Un café à Lisbonne"}},
+    {"id": "2026-11-22", "kind": "detente", "theme": "Voyage", "title": {"pt": "Um domingo no Porto", "fr": "Un dimanche à Porto"}}
+  ],
+  "reserve": [
+    {"id": "reserve-mercado", "kind": "detente", "theme": "Cuisine", "title": {"pt": "No mercado", "fr": "Au marché"}},
+    {"id": "reserve-comboio", "kind": "detente", "theme": "Voyage", "title": {"pt": "Apanhar o comboio", "fr": "Prendre le train"}}
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "2026-11-21",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Sorties",
+  "level": "A1",
+  "title": {"pt": "Um café em Lisboa", "fr": "Un café à Lisbonne"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "É sábado de manhã e o Tiago está em Lisboa.", "fr": "C’est samedi matin et Tiago est à Lisbonne."},
+      {"pt": "Ele [[entra|entrar]] numa [[pastelaria|pastelaria]] perto do rio.", "fr": "Il entre dans une pâtisserie près du fleuve."},
+      {"pt": "— Bom dia! Queria uma [[bica|bica]] e um [[pastel de nata|pastel]], por favor.", "fr": "— Bonjour ! Je voudrais un expresso et un pastel de nata, s’il vous plaît."}
+    ],
+    [
+      {"pt": "— [[Mais alguma coisa|maiscoisa]]? — pergunta o [[empregado|empregado]].", "fr": "— Autre chose ? demande le serveur."},
+      {"pt": "— Não, obrigado. Quanto é?", "fr": "— Non, merci. C’est combien ?"},
+      {"pt": "— São dois euros e cinquenta.", "fr": "— Ça fait deux euros cinquante."},
+      {"pt": "O Tiago [[paga|pagar]], [[senta-se|sentar]] na [[esplanada|esplanada]] e olha para o rio.", "fr": "Tiago paie, s’assoit en terrasse et regarde le fleuve."}
+    ]
+  ],
+  "glossary": {
+    "entrar": {"w": "entrar", "fr": "entrer", "note": "entra : il ou elle entre. Numa = em + uma (dans une)."},
+    "pastelaria": {"w": "a pastelaria", "fr": "la pâtisserie-café", "note": "Au Portugal, on y prend le café et le petit-déjeuner."},
+    "bica": {"w": "a bica", "fr": "l’expresso (à Lisbonne)", "note": "À Porto, on dit plutôt « um cimbalino ».", "new": true},
+    "pastel": {"w": "o pastel de nata", "fr": "le flan pâtissier portugais", "new": true},
+    "maiscoisa": {"w": "mais alguma coisa?", "fr": "autre chose ?", "note": "Une question que tu entendras dans tous les commerces.", "new": true},
+    "empregado": {"w": "o empregado", "fr": "le serveur, l’employé", "note": "Au féminin : a empregada.", "new": true},
+    "pagar": {"w": "pagar", "fr": "payer", "note": "paga : il ou elle paie.", "new": true},
+    "sentar": {"w": "sentar-se", "fr": "s’asseoir", "note": "senta-se : il ou elle s’assoit. Eu sento-me : je m’assois."},
+    "esplanada": {"w": "a esplanada", "fr": "la terrasse (de café)", "new": true}
+  },
+  "cloze": [
+    {"before": "— Bom dia! Queria uma", "answer": "bica", "after": "e um pastel de nata, por favor.", "options": ["bica", "conta", "rua"],
+     "why": "À Lisbonne, une bica est un petit café serré, comme un expresso."},
+    {"before": "— Mais alguma", "answer": "coisa", "after": "? — pergunta o empregado.", "options": ["coisa", "casa", "conta"],
+     "why": "Mais alguma coisa ? = Autre chose ? Une phrase que tu entendras partout."},
+    {"before": "O Tiago paga e", "answer": "senta-se", "after": "na esplanada.", "options": ["senta-se", "sento-me", "sentar"],
+     "why": "Le sujet est o Tiago (il), donc senta-se. Sento-me, c’est « je m’assois »."}
+  ],
+  "oral": {
+    "question": {"pt": "Estás numa pastelaria. O que pedes?", "fr": "Tu es dans une pâtisserie. Qu’est-ce que tu commandes ?"},
+    "starter": "Queria…",
+    "model": {"pt": "Queria uma bica e um pastel de nata, por favor.", "fr": "Je voudrais un expresso et un pastel de nata, s’il vous plaît."},
+    "keywords": ["queria", "bica", "pastel", "favor"],
+    "tip": {"title": "Queria, la forme polie", "text": "Pour commander, les Portugais disent queria (je voudrais) plutôt que quero (je veux), qui sonne sec."}
+  }
+}

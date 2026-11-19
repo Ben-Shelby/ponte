@@ -1,0 +1,49 @@
+{
+  "id": "2026-11-20",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Énergie",
+  "level": "A1",
+  "title": {"pt": "Portugal entre os melhores da Europa", "fr": "Le Portugal parmi les meilleurs d’Europe"},
+  "source": {"name": "ComparaJá", "url": "https://www.comparaja.pt/energia/noticias/portugal-lider-europeu-eletricidade-renovavel-novembro-2026"},
+  "paragraphs": [
+    [
+      {"pt": "Portugal produz muita eletricidade [[renovável|renovavel]].", "fr": "Le Portugal produit beaucoup d’électricité renouvelable."},
+      {"pt": "Este ano, mais de 70 % da eletricidade [[vem|vir]] do sol, do vento e da [[água|agua]].", "fr": "Cette année, plus de 70 % de l’électricité vient du soleil, du vent et de l’eau."},
+      {"pt": "Com este [[resultado|resultado]], Portugal está em [[quarto lugar|quarto]] na Europa.", "fr": "Avec ce résultat, le Portugal est quatrième en Europe."}
+    ],
+    [
+      {"pt": "Segundo a APREN, as renováveis [[poupam|poupar]] muito dinheiro ao país.", "fr": "Selon l’APREN, les renouvelables font économiser beaucoup d’argent au pays."},
+      {"pt": "Mas o país ainda [[precisa de|precisar]] mais [[redes|rede]] e mais [[baterias|bateria]].", "fr": "Mais le pays a encore besoin de plus de réseaux et de plus de batteries."},
+      {"pt": "Por isso, o Governo [[abriu|abrir]] um [[leilão|leilao]] para grandes baterias.", "fr": "C’est pourquoi le gouvernement a lancé un appel d’offres pour de grandes batteries."}
+    ]
+  ],
+  "glossary": {
+    "renovavel": {"w": "renovável", "fr": "renouvelable", "note": "Au pluriel : renováveis. Les Portugais disent souvent « as renováveis » pour les énergies renouvelables."},
+    "vir": {"w": "vir", "fr": "venir", "note": "vem : il ou elle vient. Verbe irrégulier.", "new": true},
+    "agua": {"w": "a água", "fr": "l’eau", "note": "Ici, l’énergie des barrages (hydroélectricité).", "new": true},
+    "resultado": {"w": "o resultado", "fr": "le résultat"},
+    "quarto": {"w": "em quarto lugar", "fr": "à la quatrième place", "note": "quarto = quatrième. Quatro = le chiffre 4."},
+    "poupar": {"w": "poupar", "fr": "économiser", "note": "poupam : ils économisent. Poupar dinheiro : économiser de l’argent.", "new": true},
+    "precisar": {"w": "precisar de", "fr": "avoir besoin de", "note": "precisa de : il ou elle a besoin de."},
+    "rede": {"w": "a rede", "fr": "le réseau", "note": "Les redes elétricas transportent l’électricité."},
+    "bateria": {"w": "a bateria", "fr": "la batterie", "new": true},
+    "abrir": {"w": "abrir", "fr": "ouvrir, lancer", "note": "abriu : il ou elle a ouvert (passé).", "new": true},
+    "leilao": {"w": "o leilão", "fr": "l’enchère, l’appel d’offres", "note": "Pluriel : os leilões.", "new": true}
+  },
+  "cloze": [
+    {"before": "Este ano, mais de 70 % da eletricidade", "answer": "vem", "after": "do sol, do vento e da água.", "options": ["vem", "vento", "vai"],
+     "why": "Vir = venir. A eletricidade vem do sol : l’électricité vient du soleil."},
+    {"before": "Portugal está em", "answer": "quarto", "after": "lugar na Europa.", "options": ["quarto", "quatro", "quarta"],
+     "why": "Pour un rang, on dit quarto (quatrième). Quatro, c’est le chiffre 4. Lugar est masculin : quarto, pas quarta."},
+    {"before": "O país ainda precisa de mais redes e mais", "answer": "baterias", "after": ".", "options": ["baterias", "leilões", "águas"],
+     "why": "Les batteries gardent l’électricité du soleil et du vent pour plus tard."}
+  ],
+  "oral": {
+    "question": {"pt": "De que é que o país precisa?", "fr": "De quoi le pays a-t-il besoin ?"},
+    "starter": "O país precisa de…",
+    "model": {"pt": "O país precisa de mais redes e mais baterias.", "fr": "Le pays a besoin de plus de réseaux et de plus de batteries."},
+    "keywords": ["precisa", "redes", "baterias"],
+    "tip": {"title": "Precisar de", "text": "Precisar se construit toujours avec de : precisa de baterias. Attention aux contractions : de + o = do, de + a = da (precisa da água)."}
+  }
+}

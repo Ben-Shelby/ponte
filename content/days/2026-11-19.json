@@ -1,0 +1,51 @@
+{
+  "id": "2026-11-19",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Énergie et IA",
+  "level": "A1",
+  "title": {"pt": "Os centros de dados vão usar energia verde", "fr": "Les data centers devront utiliser de l’énergie verte"},
+  "source": {"name": "ComparaJá", "url": "https://www.comparaja.pt/energia/noticias/energia-renovavel-obrigatoria-data-centers-portugal-2026"},
+  "paragraphs": [
+    [
+      {"pt": "Portugal quer receber muitos [[centros de dados|centros]].", "fr": "Le Portugal veut accueillir beaucoup de data centers."},
+      {"pt": "Estes centros [[funcionam|funcionar]] [[dia e noite|dianoite]] e [[consomem|consumir]] muita eletricidade.", "fr": "Ces centres fonctionnent jour et nuit et consomment beaucoup d’électricité."},
+      {"pt": "A [[ministra|ministra]] do Ambiente e da Energia [[diz|dizer]]: os centros de dados [[vão ter de|terde]] usar energia [[renovável|renovavel]].", "fr": "La ministre de l’Environnement et de l’Énergie le dit : les data centers vont devoir utiliser de l’énergie renouvelable."}
+    ],
+    [
+      {"pt": "Mas não [[precisam de|precisar]] produzir essa energia.", "fr": "Mais ils n’ont pas besoin de produire cette énergie."},
+      {"pt": "Em Portugal, o [[sol|sol]] e o [[vento|vento]] já [[produzem|produzir]] grande parte da eletricidade.", "fr": "Au Portugal, le soleil et le vent produisent déjà une grande partie de l’électricité."},
+      {"pt": "O Governo vai discutir a nova [[lei|lei]] até ao fim do ano.", "fr": "Le gouvernement va discuter la nouvelle loi d’ici la fin de l’année."}
+    ]
+  ],
+  "glossary": {
+    "centros": {"w": "os centros de dados", "fr": "les centres de données (data centers)"},
+    "funcionar": {"w": "funcionar", "fr": "fonctionner", "note": "funcionam : ils fonctionnent."},
+    "dianoite": {"w": "dia e noite", "fr": "jour et nuit"},
+    "consumir": {"w": "consumir", "fr": "consommer", "note": "consomem : ils consomment. Avec un seul sujet : consome.", "new": true},
+    "ministra": {"w": "a ministra", "fr": "la ministre", "note": "Au masculin : o ministro."},
+    "dizer": {"w": "dizer", "fr": "dire", "note": "diz : il ou elle dit. Verbe irrégulier, très fréquent."},
+    "terde": {"w": "ter de", "fr": "devoir (+ infinitif)", "note": "vão ter de usar : ils vont devoir utiliser. Au Portugal, on dit « ter de », au Brésil plutôt « ter que ».", "new": true},
+    "renovavel": {"w": "renovável", "fr": "renouvelable", "note": "Au pluriel : renováveis.", "new": true},
+    "precisar": {"w": "precisar de", "fr": "avoir besoin de", "note": "precisam de : ils ont besoin de. Toujours suivi de « de ».", "new": true},
+    "sol": {"w": "o sol", "fr": "le soleil"},
+    "vento": {"w": "o vento", "fr": "le vent", "new": true},
+    "produzir": {"w": "produzir", "fr": "produire", "note": "produzem : ils produisent."},
+    "lei": {"w": "a lei", "fr": "la loi", "new": true}
+  },
+  "cloze": [
+    {"before": "Estes centros", "answer": "consomem", "after": "muita eletricidade.", "options": ["consome", "consomem", "consumir"],
+     "why": "Le sujet est au pluriel (estes centros), donc consomem. Consome va avec un seul sujet, consumir est l’infinitif."},
+    {"before": "Os centros de dados vão", "answer": "ter de", "after": "usar energia renovável.", "options": ["ter de", "precisam", "diz"],
+     "why": "« Ter de » + infinitif = devoir. Vão ter de usar : ils vont devoir utiliser."},
+    {"before": "Em Portugal, o sol e o", "answer": "vento", "after": "já produzem grande parte da eletricidade.", "options": ["vento", "lei", "dia"],
+     "why": "Le soleil et le vent : les deux sources d’énergie renouvelable dont parle l’article."}
+  ],
+  "oral": {
+    "question": {"pt": "Que energia vão usar os centros de dados?", "fr": "Quelle énergie vont utiliser les data centers ?"},
+    "starter": "Os centros de dados vão usar…",
+    "model": {"pt": "Os centros de dados vão usar energia renovável.", "fr": "Les data centers vont utiliser de l’énergie renouvelable."},
+    "keywords": ["centros", "vão", "usar", "renovável"],
+    "tip": {"title": "Le futur proche", "text": "Pour dire « ils vont utiliser », on conjugue ir au présent puis on ajoute l’infinitif : vão usar. Avec un seul sujet : o centro vai usar."}
+  }
+}

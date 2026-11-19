@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-22",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Voyage",
+  "level": "A1",
+  "title": {"pt": "Um domingo no Porto", "fr": "Un dimanche à Porto"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "Hoje a Ana [[passeia|passear]] pelo Porto com uma amiga.", "fr": "Aujourd’hui, Ana se promène dans Porto avec une amie."},
+      {"pt": "Elas [[atravessam|atravessar]] a [[ponte|ponte]] Luís I a pé.", "fr": "Elles traversent le pont Louis-Ier à pied."},
+      {"pt": "Do outro lado do rio, há [[caves|cave]] de vinho do Porto.", "fr": "De l’autre côté du fleuve, il y a des caves de vin de Porto."}
+    ],
+    [
+      {"pt": "Ao almoço, comem uma [[francesinha|francesinha]], o prato [[típico|tipico]] da cidade.", "fr": "Au déjeuner, elles mangent une francesinha, le plat typique de la ville."},
+      {"pt": "À tarde, [[chove|chover]] um pouco, mas não faz mal.", "fr": "L’après-midi, il pleut un peu, mais ce n’est pas grave."},
+      {"pt": "Elas entram num café e [[conversam|conversar]] até ao fim do dia.", "fr": "Elles entrent dans un café et discutent jusqu’à la fin de la journée."}
+    ]
+  ],
+  "glossary": {
+    "passear": {"w": "passear", "fr": "se promener", "note": "passeia : il ou elle se promène. Eu passeio : je me promène.", "new": true},
+    "atravessar": {"w": "atravessar", "fr": "traverser", "note": "atravessam : elles traversent.", "new": true},
+    "ponte": {"w": "a ponte", "fr": "le pont", "note": "Comme le nom de ton appli : un pont entre les langues. Attention, en portugais le mot est féminin.", "new": true},
+    "cave": {"w": "a cave", "fr": "la cave (à vin)", "note": "Les caves de vin de Porto sont à Vila Nova de Gaia, en face de la ville."},
+    "francesinha": {"w": "a francesinha", "fr": "la francesinha", "note": "Un sandwich très copieux, nappé de sauce, spécialité de Porto. Son nom veut dire « petite Française »."},
+    "tipico": {"w": "típico", "fr": "typique"},
+    "chover": {"w": "chover", "fr": "pleuvoir", "note": "chove : il pleut. La pluie : a chuva.", "new": true},
+    "conversar": {"w": "conversar", "fr": "discuter, bavarder", "note": "conversam : elles discutent.", "new": true}
+  },
+  "cloze": [
+    {"before": "Elas atravessam a", "answer": "ponte", "after": "Luís I a pé.", "options": ["ponte", "porta", "praia"],
+     "why": "Ponte = pont. C’est aussi le nom de ton appli : un pont entre les langues."},
+    {"before": "À tarde,", "answer": "chove", "after": "um pouco, mas não faz mal.", "options": ["chove", "chovem", "chuva"],
+     "why": "Pour la météo, le verbe reste au singulier : chove (il pleut). Chuva, c’est la pluie (le nom)."},
+    {"before": "Elas entram num café e", "answer": "conversam", "after": "até ao fim do dia.", "options": ["conversam", "conversa", "conversar"],
+     "why": "Le sujet est elas (elles), donc conversam."}
+  ],
+  "oral": {
+    "question": {"pt": "O que fazes ao domingo?", "fr": "Que fais-tu le dimanche ?"},
+    "starter": "Ao domingo, eu…",
+    "model": {"pt": "Ao domingo, eu passeio e tomo um café com amigos.", "fr": "Le dimanche, je me promène et je prends un café avec des amis."},
+    "keywords": ["domingo", "passeio", "café"],
+    "tip": {"title": "Le « je » au présent", "text": "À la première personne, beaucoup de verbes finissent en -o : passeio (je me promène), tomo (je prends), converso (je discute)."}
+  }
+}

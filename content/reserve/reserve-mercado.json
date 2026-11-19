@@ -1,0 +1,44 @@
+{
+  "id": "reserve-mercado",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Cuisine",
+  "level": "A1",
+  "title": {"pt": "No mercado", "fr": "Au marché"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "A Marta vai ao mercado todos os sábados.", "fr": "Marta va au marché tous les samedis."},
+      {"pt": "Ela [[compra|comprar]] [[fruta|fruta]], [[legumes|legumes]] e [[peixe|peixe]] fresco.", "fr": "Elle achète des fruits, des légumes et du poisson frais."},
+      {"pt": "— Quanto [[custam|custar]] as laranjas? — pergunta ela.", "fr": "— Combien coûtent les oranges ? demande-t-elle."}
+    ],
+    [
+      {"pt": "— Um euro o quilo. São muito [[doces|doce]]! — diz o vendedor.", "fr": "— Un euro le kilo. Elles sont très sucrées ! dit le vendeur."},
+      {"pt": "A Marta [[leva|levar]] dois quilos e volta para casa contente.", "fr": "Marta en prend deux kilos et rentre à la maison contente."}
+    ]
+  ],
+  "glossary": {
+    "comprar": {"w": "comprar", "fr": "acheter", "note": "compra : elle achète. Eu compro : j’achète.", "new": true},
+    "fruta": {"w": "a fruta", "fr": "les fruits", "note": "En portugais, « a fruta » désigne les fruits en général."},
+    "legumes": {"w": "os legumes", "fr": "les légumes", "new": true},
+    "peixe": {"w": "o peixe", "fr": "le poisson", "new": true},
+    "custar": {"w": "custar", "fr": "coûter", "note": "custam : ils coûtent. Quanto custa? Combien ça coûte ?", "new": true},
+    "doce": {"w": "doce", "fr": "sucré, doux", "note": "Au pluriel : doces. Um doce, c’est aussi un dessert.", "new": true},
+    "levar": {"w": "levar", "fr": "emporter, prendre", "note": "leva : elle prend (pour l’emporter).", "new": true}
+  },
+  "cloze": [
+    {"before": "Ela", "answer": "compra", "after": "fruta, legumes e peixe fresco.", "options": ["compra", "compro", "comprar"],
+     "why": "Ela (elle), donc compra. Compro, c’est « j’achète »."},
+    {"before": "— Quanto", "answer": "custam", "after": "as laranjas?", "options": ["custam", "custa", "custo"],
+     "why": "As laranjas est au pluriel, donc custam. Pour une seule chose : quanto custa ?"},
+    {"before": "— Um euro o quilo. São muito", "answer": "doces", "after": "!", "options": ["doces", "doce", "peixe"],
+     "why": "Doce = sucré. Les oranges sont plusieurs, donc doces."}
+  ],
+  "oral": {
+    "question": {"pt": "O que compras no mercado?", "fr": "Qu’est-ce que tu achètes au marché ?"},
+    "starter": "No mercado, compro…",
+    "model": {"pt": "No mercado, compro fruta e peixe.", "fr": "Au marché, j’achète des fruits et du poisson."},
+    "keywords": ["compro", "fruta", "peixe"],
+    "tip": {"title": "Acheter : comprar", "text": "Eu compro (j’achète), ela compra (elle achète), eles compram (ils achètent)."}
+  }
+}

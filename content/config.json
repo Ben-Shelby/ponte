@@ -1,0 +1,19 @@
+{
+  "focus": "pt",
+  "variant": "pt-PT",
+  "level": "A1",
+  "themes": {
+    "semaine": ["Énergie", "IA et tech", "Géopolitique", "Business", "Infrastructures"],
+    "weekend": ["Voyage", "Cuisine", "Sport", "Sorties"]
+  },
+  "schedule": {
+    "lundi-vendredi": "actu",
+    "samedi-dimanche": "detente"
+  },
+  "activity": {
+    "form_url": "",
+    "field": "",
+    "sheet_id": "",
+    "pause_after_days": 14
+  }
+}

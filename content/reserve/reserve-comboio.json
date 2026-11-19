@@ -1,0 +1,45 @@
+{
+  "id": "reserve-comboio",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Voyage",
+  "level": "A1",
+  "title": {"pt": "Apanhar o comboio", "fr": "Prendre le train"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "O Rui [[apanha|apanhar]] o [[comboio|comboio]] para Coimbra.", "fr": "Rui prend le train pour Coimbra."},
+      {"pt": "Na [[estação|estacao]], ele compra um [[bilhete|bilhete]].", "fr": "À la gare, il achète un billet."},
+      {"pt": "— Um bilhete para Coimbra, por favor. A que horas [[parte|partir]] o comboio?", "fr": "— Un billet pour Coimbra, s’il vous plaît. À quelle heure part le train ?"}
+    ],
+    [
+      {"pt": "— Às dez e [[meia|meia]], na [[linha|linha]] três.", "fr": "— À dix heures et demie, voie trois."},
+      {"pt": "A viagem é rápida: o Rui lê um livro e [[chega|chegar]] antes do almoço.", "fr": "Le voyage est rapide : Rui lit un livre et arrive avant le déjeuner."}
+    ]
+  ],
+  "glossary": {
+    "apanhar": {"w": "apanhar", "fr": "prendre (un transport)", "note": "Au Portugal : apanhar o comboio, apanhar o autocarro (le bus).", "new": true},
+    "comboio": {"w": "o comboio", "fr": "le train", "note": "Au Brésil, on dit « o trem ».", "new": true},
+    "estacao": {"w": "a estação", "fr": "la gare", "note": "Pluriel : as estações."},
+    "bilhete": {"w": "o bilhete", "fr": "le billet", "new": true},
+    "partir": {"w": "partir", "fr": "partir", "note": "parte : il part. Presque comme en français.", "new": true},
+    "meia": {"w": "e meia", "fr": "et demie", "note": "Às dez e meia : à dix heures et demie."},
+    "linha": {"w": "a linha", "fr": "la voie, la ligne", "new": true},
+    "chegar": {"w": "chegar", "fr": "arriver", "note": "chega : il arrive.", "new": true}
+  },
+  "cloze": [
+    {"before": "O Rui apanha o", "answer": "comboio", "after": "para Coimbra.", "options": ["comboio", "bilhete", "livro"],
+     "why": "Au Portugal, le train se dit comboio (au Brésil : trem)."},
+    {"before": "A que horas", "answer": "parte", "after": "o comboio?", "options": ["parte", "partem", "partir"],
+     "why": "O comboio est seul, donc parte. Partem, c’est pour plusieurs trains."},
+    {"before": "— Às dez e", "answer": "meia", "after": ", na linha três.", "options": ["meia", "meio", "média"],
+     "why": "Pour la demi-heure, on dit e meia, au féminin (hora est féminin)."}
+  ],
+  "oral": {
+    "question": {"pt": "A que horas parte o teu comboio?", "fr": "À quelle heure part ton train ?"},
+    "starter": "O meu comboio parte às…",
+    "model": {"pt": "O meu comboio parte às dez e meia.", "fr": "Mon train part à dix heures et demie."},
+    "keywords": ["comboio", "parte", "dez", "meia"],
+    "tip": {"title": "Dire l’heure", "text": "Às + l’heure : às dez (à dix heures), às dez e meia (à dix heures et demie), à uma (à une heure)."}
+  }
+}
