@@ -1,0 +1,48 @@
+# Publie les contenus préparés par la routine Claude du dimanche.
+# Si la routine n'a pas pu pousser directement sur main, elle pousse une branche claude/… :
+# ce workflow vérifie que seuls des fichiers de content/ ont changé, valide les contenus,
+# puis fusionne dans main pour que GitHub Pages mette le site à jour.
+name: Publier le contenu de la routine
+
+on:
+  push:
+    branches: ['claude/**']
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  publier:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Seuls les contenus doivent changer
+        run: |
+          git fetch origin main
+          CHANGED=$(git diff --name-only origin/main...HEAD)
+          echo "$CHANGED"
+          if [ -z "$CHANGED" ]; then echo "Rien à publier."; exit 0; fi
+          if echo "$CHANGED" | grep -qvE '^content/'; then
+            echo "Des fichiers hors de content/ ont changé : pas de fusion automatique."
+            exit 1
+          fi
+
+      - name: Valider les contenus
+        run: python3 tools/validate.py
+
+      - name: Fusionner dans main
+        run: |
+          git config user.name "ponte-bot"
+          git config user.email "ponte-bot@users.noreply.github.com"
+          git checkout main
+          git merge --no-edit "$GITHUB_SHA"
+          git push origin main
+
+      - name: Relancer GitHub Pages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds" || true
