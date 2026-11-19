@@ -137,6 +137,15 @@ def main():
         else:
             check_article(path, r['id'])
 
+    # Le calendrier des rappels doit couvrir chaque jour à venir.
+    import datetime
+    today = datetime.date.today().isoformat()
+    ics_path = os.path.join(CONTENT, 'rappels.ics')
+    ics = open(ics_path, encoding='utf-8').read() if os.path.exists(ics_path) else ''
+    for day_id in ids:
+        if day_id and day_id >= today and f'UID:ponte-{day_id}-m@' not in ics:
+            err('content/rappels.ics', f'pas de rappel pour le {day_id} : lance python3 tools/make_calendar.py')
+
     for w in warnings:
         print('Avertissement :', w)
     for e in errors:

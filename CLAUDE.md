@@ -14,7 +14,7 @@ Appli personnelle d'apprentissage des langues (portugais du Portugal, puis russe
 - `index.html`, `css/app.css`, `js/app.js` : l'appli (vanilla JS, aucune dépendance, aucune compilation).
 - `js/library.js` : contenus fixes (phrases essentielles, alphabets, sessions d'alphabet cyrillique).
 - `content/index.json` : liste des jours et des articles de réserve. `content/days/AAAA-MM-JJ.json` : un article par jour. `content/reserve/` : articles intemporels. `content/config.json` : thèmes, calendrier, signal d'activité.
-- `rappels.ics` : deux rappels quotidiens à ajouter au Calendrier de l'iPhone.
+- `content/rappels.ics` : le calendrier de rappels auquel l’iPhone est abonné, régénéré par `tools/make_calendar.py` à chaque semaine préparée. Sans activité, plus de nouveaux jours, donc plus de rappels.
 - `tools/validate.py` : vérifie les contenus. `tools/make_icons.py` : génère les icônes.
 - `design/maquette.html` : la maquette validée.
 

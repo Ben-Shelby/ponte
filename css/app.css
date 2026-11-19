@@ -45,6 +45,12 @@
 html,body{height:100%}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--font-ui);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-webkit-tap-highlight-color:transparent}
 button,input,textarea{font:inherit;color:inherit}
+/* Pas de zoom au double tap, pas de sélection de texte sur les commandes */
+html,button,a,label,[role="button"]{touch-action:manipulation}
+.tabbar,.tab,.btn,.lesson,.row,.chip,.opt,.icon-btn,.mic,.lang-card,.arco-card,.back,.glyph{-webkit-user-select:none;user-select:none;-webkit-touch-callout:none}
+.rank{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;background:var(--fill);color:var(--ink-2);font-weight:600;font-size:14px;flex:none;font-variant-numeric:tabular-nums}
+.row-actions{display:flex;gap:6px;flex:none}
+.icon-btn[disabled]{opacity:.35;cursor:default}
 a{color:var(--accent)}
 :focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 [hidden]{display:none!important}

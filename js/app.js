@@ -30,6 +30,8 @@ const ICON = {
   up:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M7.5 8.5L12 4l4.5 4.5M5 19.5h14"/></svg>',
   trash:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M5 7h14M10 7V5h4v2M7 7l1 12h8l1-12"/></svg>',
   share:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V4M8 7.5L12 3.5l4 4M6 11v8.5h12V11"/></svg>',
+  arrowUp:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>',
+  arrowDown:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"/></svg>',
   sparkle:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"><path d="M12 3.5l2 5.5 5.5 2-5.5 2-2 5.5-2-5.5-5.5-2 5.5-2z"/></svg>'
 };
 
@@ -601,10 +603,15 @@ const LANGS = {
   pt:{name:'Portugais', native:'Português', variant:'du Portugal', code:'pt-PT', voice:'pt-PT', alphaTile:'Ãç', alphaTitle:'Les sons du portugais',
       alphaSub:() => 'Même alphabet que le français, 10 sons à connaître', status:() => `Focus · ${mastered()} mot${mastered() > 1 ? 's' : ''} maîtrisé${mastered() > 1 ? 's' : ''}`},
   ru:{name:'Russe', native:'Русский', variant:'', code:'ru', voice:'ru-RU', alphaTile:'Аб', alphaTitle:'L’alphabet cyrillique',
-      alphaSub:() => `${lettersKnown()} lettres connues sur 33`, status:() => `Alphabet ${lettersKnown()} / 33 · focus en février`},
+      alphaSub:() => `${lettersKnown()} lettres connues sur 33`, status:() => `Alphabet ${lettersKnown()} / 33 · ${nextLabel('ru')}`},
   ar:{name:'Arabe', native:'العربية', variant:'arabe standard', code:'ar', voice:'ar-SA', alphaTile:'أب', alphaTitle:'L’alphabet arabe',
-      alphaSub:() => '28 lettres, aperçu avant mars', status:() => 'Aperçu · alphabet en mars'}
+      alphaSub:() => '28 lettres, en aperçu', status:() => `Aperçu · ${nextLabel('ar')}`}
 };
+function nextLabel(code){
+  const i = langQueue().indexOf(code);
+  return i === 0 ? 'focus en février' : i > 0 ? `${i + 1}ᵉ dans ta liste` : 'hors de ta liste';
+}
+const cap = (s) => s.charAt(0).toUpperCase() + s.slice(1);
 function nativeHTML(k){
   const l = LANGS[k];
   return k === 'ar' ? `<span class="native-ar" lang="ar" dir="rtl">${l.native}</span>` : `<span lang="${l.code}">${l.native}</span>`;
@@ -641,7 +648,7 @@ function advHTML(k){
     if(!items.length) return `<div class="group"><div class="empty">${arco('pt', 48, 'still')}<span>Les articles que tu termines apparaîtront ici. Après chaque bilan mensuel réussi, ils passent en « Validé ».</span></div></div>`;
     return `<div class="group plain">${items.map(([id, d]) => `<div class="row static"><span class="row-main"><span class="adv-title" lang="pt-PT">${esc(d.title.pt)}</span><span class="row-sub">${esc(d.title.fr)} · ${esc(d.theme)}</span></span>${store.validated[id] ? '<span class="tag good">Validé</span>' : '<span class="tag">Lu</span>'}</div>`).join('')}</div>`;
   }
-  return `<div class="group"><div class="empty">${arco(k, 48, 'still')}<span>Tes thèmes apparaîtront ici dès tes premiers articles en ${k === 'ru' ? 'russe, en février' : 'arabe, en mai'}.</span></div></div>`;
+  return `<div class="group"><div class="empty">${arco(k, 48, 'still')}<span>Tes thèmes apparaîtront ici dès tes premiers articles en ${k === 'ru' ? 'russe' : 'arabe'}.</span></div></div>`;
 }
 function phrasesHTML(k, catId){
   const l = LANGS[k], c = LIB.CATS.find(x => x.id === catId), list = LIB.PHRASES[k][catId], rtl = k === 'ar';
@@ -715,13 +722,13 @@ function progressHTML(){
     <button class="btn ${info.official && !info.done ? 'btn-primary' : 'btn-secondary'}" data-action="start-test" ${canTest ? '' : 'disabled'}>${canTest ? (info.official && !info.done ? 'Faire le bilan' : 'Bilan d’entraînement') : 'Disponible après tes premiers articles'}</button>
   </div>
   <div class="pcard">
-    <div class="phead"><span class="pname">Russe</span><span class="tag">Focus en février</span></div>
+    <div class="phead"><span class="pname">Russe</span><span class="tag">${cap(nextLabel('ru'))}</span></div>
     <div class="bar-legend"><span>Alphabet</span><span>${letters} / 33 lettres</span></div>
     <div class="bar"><i style="width:${(letters / 33 * 100).toFixed(1)}%"></i></div>
   </div>
   <div class="pcard">
     <div class="phead"><span class="pname">Arabe standard</span><span class="ar" lang="ar" dir="rtl">العربية</span></div>
-    <p class="pnote">Alphabet à partir de mars 2027, focus en mai. Les textes auront les voyelles notées.</p>
+    <p class="pnote">${cap(nextLabel('ar'))}. Les textes auront les voyelles notées.</p>
   </div>`;
 }
 
@@ -733,17 +740,16 @@ function settingsHTML(){
   <h1 class="large screen-title">Réglages</h1>
   <div class="section-label first">Rappels</div>
   <div class="group">
-    <a class="row" href="rappels.ics"><span class="tile">${ICON.cal}</span><span class="row-main"><span class="row-title accent">Ajouter les rappels à mon Calendrier</span><span class="row-sub">08:00 lecture, 18:30 oral. Une seule fois suffit.</span></span></a>
+    <a class="row" href="${calendarUrl()}"><span class="tile">${ICON.cal}</span><span class="row-main"><span class="row-title accent">S’abonner aux rappels</span><span class="row-sub">08:00 lecture, 18:30 oral, avec le titre du jour</span></span></a>
   </div>
-  <p class="foot">Pour changer l’heure, modifie l’évènement dans le Calendrier de ton iPhone.</p>
-  <div class="section-label">Installer sur l’iPhone</div>
-  <div class="group plain"><div class="row static"><span class="tile">${ICON.share}</span><span class="row-main"><span class="row-title">Safari, Partager, Sur l’écran d’accueil</span><span class="row-sub">Ponte s’ouvre alors comme une vraie appli.</span></span></div></div>
-  <div class="section-label">Langues</div>
-  <div class="group plain">
-    <div class="row static"><span class="tile">PT</span><span class="row-main"><span class="row-title">Portugais du Portugal</span><span class="row-sub">Jusqu’à fin janvier</span></span><span class="tag accent">Focus</span></div>
-    <div class="row static"><span class="tile" lang="ru">Ру</span><span class="row-main"><span class="row-title">Russe</span><span class="row-sub">Alphabet maintenant, focus en février</span></span><span class="tag">2 min</span></div>
-    <div class="row static"><span class="tile ar-tile muted" lang="ar">ع</span><span class="row-main"><span class="row-title">Arabe standard</span><span class="row-sub">Alphabet en mars, focus en mai</span></span><span class="tag">Plus tard</span></div>
+  <p class="foot">Ton iPhone propose de s’abonner au calendrier « Ponte ». Si l’option « Supprimer les alertes » apparaît, désactive-la pour recevoir les notifications. Les rappels suivent les articles préparés : sans séance pendant deux semaines, ils s’arrêtent tout seuls, et reprennent quand tu reviens.</p>
+  <div class="section-label">Ordre des langues</div>
+  <div class="group">
+    <div class="row static"><span class="tile">PT</span><span class="row-main"><span class="row-title">Portugais du Portugal</span><span class="row-sub">En cours, jusqu’à fin janvier</span></span><span class="tag accent">Focus</span></div>
+    ${queueRows()}
+    <button class="row" data-action="lang-add"><span class="tile">${ICON.plus}</span><span class="row-main"><span class="row-title accent">Ajouter ou retirer une langue</span></span></button>
   </div>
+  <p class="foot">La première de la liste prend le relais quand le portugais passe en simple entretien. Avant de préparer des cours dans une nouvelle langue, Claude te demandera de valider le format.</p>
   <div class="section-label">Actualité, en semaine</div>
   <div class="chips">${chips(th.semaine)}</div>
   <div class="section-label">Le week-end, détente</div>
@@ -758,6 +764,44 @@ function settingsHTML(){
   <input type="file" id="import-file" accept="application/json,.json" hidden>
   <p class="foot">Ta progression reste sur ce téléphone, dans le navigateur. Rien n’est envoyé ailleurs.</p>
   <p class="foot">Contenu mis à jour le ${INDEX.updated ? frDate(INDEX.updated, {day:'numeric', month:'long', year:'numeric'}) : '—'}.</p>`;
+}
+
+/* Abonnement au calendrier : l'iPhone relit content/rappels.ics régulièrement. */
+function calendarUrl(){ return 'webcal://' + location.host + location.pathname.replace(/[^/]*$/, '') + 'content/rappels.ics'; }
+
+/* Ordre des langues : gardé sur le téléphone et envoyé dans la feuille d'activité,
+   pour que Claude sache quelle langue préparer ensuite. */
+const LANG_CATALOG = {
+  ru:{name:'Russe', tile:'Ру'}, ar:{name:'Arabe standard', tile:'ع', ar:true}, es:{name:'Espagnol', tile:'ES'},
+  it:{name:'Italien', tile:'IT'}, de:{name:'Allemand', tile:'DE'}, en:{name:'Anglais des affaires', tile:'EN'},
+  zh:{name:'Chinois mandarin', tile:'中'}, tr:{name:'Turc', tile:'TR'}, ja:{name:'Japonais', tile:'あ'}
+};
+function langQueue(){ if(!Array.isArray(store.langQueue)) store.langQueue = ['ru', 'ar']; return store.langQueue; }
+function queueRows(){
+  const q = langQueue();
+  return q.map((code, i) => {
+    const l = LANG_CATALOG[code] || {name:code, tile:code.toUpperCase()};
+    const sub = i === 0 ? 'Prend le relais en février' : `En ${i + 1}ᵉ position`;
+    return `<div class="row static"><span class="rank">${i + 1}</span><span class="row-main"><span class="row-title">${esc(l.name)}</span><span class="row-sub">${sub}</span></span>
+      <span class="row-actions"><button class="icon-btn" data-action="lang-up" data-i="${i}" ${i === 0 ? 'disabled' : ''} aria-label="Monter ${esc(l.name)}">${ICON.arrowUp}</button><button class="icon-btn" data-action="lang-down" data-i="${i}" ${i === q.length - 1 ? 'disabled' : ''} aria-label="Descendre ${esc(l.name)}">${ICON.arrowDown}</button></span></div>`;
+  }).join('');
+}
+function langSheet(){
+  const q = langQueue();
+  const row = (code, inList) => {
+    const l = LANG_CATALOG[code];
+    return `<button class="row" data-action="${inList ? 'lang-remove' : 'lang-include'}" data-code="${code}"><span class="tile${l.ar ? ' ar-tile' : ''}">${l.tile}</span><span class="row-main"><span class="row-title">${l.name}</span></span><span class="tag ${inList ? '' : 'accent'}">${inList ? 'Retirer' : 'Ajouter'}</span></button>`;
+  };
+  openSheet(`<h3 class="plain">Tes prochaines langues</h3><p>Le portugais reste ta langue du moment. Choisis celles qui suivront.</p>
+    ${q.length ? `<div class="section-label">Dans ta liste</div><div class="group">${q.map(c => row(c, true)).join('')}</div>` : ''}
+    <div class="section-label">À ajouter</div><div class="group">${Object.keys(LANG_CATALOG).filter(c => !q.includes(c)).map(c => row(c, false)).join('') || '<div class="row static"><span class="row-sub">Toutes les langues sont dans ta liste.</span></div>'}</div>
+    <button class="btn btn-secondary" data-action="close-sheet">Fermer</button>`);
+}
+let orderTimer;
+function sendOrder(){
+  save();
+  clearTimeout(orderTimer);
+  orderTimer = setTimeout(() => pingActivity('ordre:' + ['pt'].concat(langQueue()).join(',')), 1500);
 }
 
 /* ---------- Feuille du bas ---------- */
@@ -930,6 +974,15 @@ document.addEventListener('click', (e) => {
     case 'lib-lang': state.lib = {lang:el.dataset.l, view:null}; render(); break;
     case 'lib-view': state.lib.view = el.dataset.v; render(); break;
     case 'lib-back': if(state.lib.view) state.lib.view = null; else state.lib.lang = null; render(); break;
+    case 'lang-up': case 'lang-down': {
+      const q = langQueue(), i = +el.dataset.i, j = a === 'lang-up' ? i - 1 : i + 1;
+      if(j < 0 || j >= q.length) break;
+      [q[i], q[j]] = [q[j], q[i]];
+      sendOrder(); render(); break;
+    }
+    case 'lang-add': langSheet(); break;
+    case 'lang-include': langQueue().push(el.dataset.code); sendOrder(); langSheet(); render(); break;
+    case 'lang-remove': store.langQueue = langQueue().filter(c => c !== el.dataset.code); sendOrder(); langSheet(); render(); break;
     case 'export': exportProgress(); break;
     case 'reset':
       openSheet(`<h3 class="plain">Tout remettre à zéro ?</h3><p>Ta série, tes mots en révision et tes bilans seront effacés de ce téléphone. Pense à sauvegarder ta progression avant.</p>

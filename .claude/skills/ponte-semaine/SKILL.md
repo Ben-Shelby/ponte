@@ -11,8 +11,8 @@ Ponte est l'appli de langues de l'utilisateur : un article court par jour, à li
 
 1. Lire `content/config.json`, bloc `activity`.
 2. Si `activity.sheet_id` est vide, il n'y a pas encore de signal d'activité : continuer.
-3. Sinon, lire la feuille Google Sheets `sheet_id` avec le connecteur Google Sheets (outil `get_values`, plage `A:B`, premier onglet « Réponses au formulaire 1 »). Chaque ligne est une séance terminée dans l'appli : colonne A = horodatage au format JJ/MM/AAAA HH:MM:SS, colonne B = « AAAA-MM-JJ type » (m = matin, e = soir, a = alphabet). Ignorer les lignes dont la colonne B contient « test ». Si la feuille est illisible, continuer comme si l'utilisateur était actif.
-4. Si aucune ligne n'a moins de `pause_after_days` jours : **ne rien générer, ne rien publier**. Terminer avec une ligne de compte rendu : « Ponte en pause : aucune séance depuis le … ». Cette vérification doit rester courte.
+3. Sinon, lire la feuille Google Sheets `sheet_id` avec le connecteur Google Sheets (outil `get_values`, plage `A:B`, premier onglet « Réponses au formulaire 1 »). Chaque ligne est une séance terminée dans l'appli : colonne A = horodatage au format JJ/MM/AAAA HH:MM:SS, colonne B = « AAAA-MM-JJ type » (m = matin, e = soir, a = alphabet). Ignorer les lignes dont la colonne B contient « test ». Seules les lignes de type m, e ou a sont des séances. Une ligne « AAAA-MM-JJ ordre:pt,ru,ar » donne l'ordre des langues choisi dans l'appli (la plus récente fait foi) : ce n'est pas une séance. Si la feuille est illisible, continuer comme si l'utilisateur était actif.
+4. Si aucune séance n'a moins de `pause_after_days` jours : **ne rien générer, ne rien publier**. Sans nouveaux jours, le calendrier de rappels de l'iPhone s'arrête de lui-même après le dernier jour préparé. Terminer avec une ligne de compte rendu : « Ponte en pause : aucune séance depuis le … ». Cette vérification doit rester courte.
 5. Sinon, continuer.
 
 ## 1. Quelle semaine
@@ -66,6 +66,7 @@ Fichier `content/days/AAAA-MM-JJ.json`. Prendre un fichier existant comme modèl
 ## 5. Index et vérification
 
 - Ajouter les 7 jours à `content/index.json`, triés par date, avec `id`, `kind`, `theme` et `title`. Mettre `updated` à la date du jour. Garder les anciens jours.
+- Lancer `python3 tools/make_calendar.py` : il régénère `content/rappels.ics`, le calendrier auquel l'iPhone est abonné (un rappel à 08:00 avec le titre du jour, un à 18:30).
 - Lancer `python3 tools/validate.py` (sous Windows : `py tools/validate.py`). Corriger toutes les erreurs, et les avertissements quand c'est possible.
 - Relire chaque article comme un professeur de portugais : orthographe pt-PT, accords, conjugaisons, accents, traductions.
 
@@ -78,7 +79,7 @@ Fichier `content/days/AAAA-MM-JJ.json`. Prendre un fichier existant comme modèl
 ## Calendrier des langues
 
 - Jusqu'au 31 janvier 2027 : portugais uniquement.
-- À partir de février 2027, le russe devient la langue focus. Ne pas l'ajouter dans la routine avant que l'utilisateur ait validé le format, dans une session normale.
+- Ensuite, la langue focus suivante est la première de l'ordre choisi par l'utilisateur dans l'appli (dernière ligne « ordre: » de la feuille d'activité ; par défaut : russe, puis arabe). Ne pas l'ajouter dans la routine avant que l'utilisateur ait validé le format, dans une session normale. Si une ligne « ordre: » apparaît avec une langue nouvelle, le signaler dans le compte rendu.
 
 ## Schéma d'un article
 

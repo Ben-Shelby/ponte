@@ -1,0 +1,131 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Ponte//Rappels//FR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Ponte
+X-WR-CALDESC:Tes rappels Ponte. Ils s’arrêtent tout seuls si tu ne fais 
+ plus de séances.
+REFRESH-INTERVAL;VALUE=DURATION:PT6H
+X-PUBLISHED-TTL:PT6H
+BEGIN:VEVENT
+UID:ponte-2026-11-19-m@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T080000
+DURATION:PT5M
+SUMMARY:Ponte · Os centros de dados vão usar energia verde
+DESCRIPTION:Lecture du matin\, 4 minutes : Les data centers devront utilise
+ r de l’énergie verte\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Os centros de dados vão usar energia verde
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-19-e@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261119T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-20-m@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261120T080000
+DURATION:PT5M
+SUMMARY:Ponte · Portugal entre os melhores da Europa
+DESCRIPTION:Lecture du matin\, 4 minutes : Le Portugal parmi les meilleurs 
+ d’Europe\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Portugal entre os melhores da Europa
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-20-e@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261120T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-21-m@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261121T080000
+DURATION:PT5M
+SUMMARY:Ponte · Um café em Lisboa
+DESCRIPTION:Lecture du matin\, 4 minutes : Un café à Lisbonne\nhttps://be
+ n-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Um café em Lisboa
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-21-e@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261121T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-22-m@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261122T080000
+DURATION:PT5M
+SUMMARY:Ponte · Um domingo no Porto
+DESCRIPTION:Lecture du matin\, 4 minutes : Un dimanche à Porto\nhttps://be
+ n-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Um domingo no Porto
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-22-e@ben-shelby.github.io
+DTSTAMP:20261119T000000Z
+DTSTART:20261122T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+END:VCALENDAR
