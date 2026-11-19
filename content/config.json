@@ -11,9 +11,9 @@
     "samedi-dimanche": "detente"
   },
   "activity": {
-    "form_url": "",
-    "field": "",
-    "sheet_id": "",
+    "form_url": "https://docs.google.com/forms/d/e/1FAIpQLSdnzvgtLEOIh1EA7CrwQUks2SY898mCaqukEmyraC2NpWa6bw/formResponse",
+    "field": "entry.1037707921",
+    "sheet_id": "16c9vupQGhuz-fKxO7IgEHLWZAI1mkcbYNyHypmCxhhI",
     "pause_after_days": 14
   }
 }

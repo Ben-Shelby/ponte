@@ -11,7 +11,7 @@ Ponte est l'appli de langues de l'utilisateur : un article court par jour, à li
 
 1. Lire `content/config.json`, bloc `activity`.
 2. Si `activity.sheet_id` est vide, il n'y a pas encore de signal d'activité : continuer.
-3. Sinon, lire la feuille Google Sheets `sheet_id` avec le connecteur Google Sheets. Chaque ligne est une séance terminée dans l'appli (horodatage, puis « AAAA-MM-JJ type »).
+3. Sinon, lire la feuille Google Sheets `sheet_id` avec le connecteur Google Sheets (outil `get_values`, plage `A:B`, premier onglet « Réponses au formulaire 1 »). Chaque ligne est une séance terminée dans l'appli : colonne A = horodatage au format JJ/MM/AAAA HH:MM:SS, colonne B = « AAAA-MM-JJ type » (m = matin, e = soir, a = alphabet). Ignorer les lignes dont la colonne B contient « test ». Si la feuille est illisible, continuer comme si l'utilisateur était actif.
 4. Si aucune ligne n'a moins de `pause_after_days` jours : **ne rien générer, ne rien publier**. Terminer avec une ligne de compte rendu : « Ponte en pause : aucune séance depuis le … ». Cette vérification doit rester courte.
 5. Sinon, continuer.
 
