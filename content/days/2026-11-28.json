@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-28",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Sorties",
+  "level": "A1",
+  "title": {"pt": "Uma mesa para dois", "fr": "Une table pour deux"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "É sábado à tarde e a Sofia [[telefona|telefonar]] para um restaurante.", "fr": "C’est samedi après-midi et Sofia appelle un restaurant."},
+      {"pt": "— Boa tarde! Queria [[reservar|reservar]] uma [[mesa|mesa]] para duas pessoas.", "fr": "— Bonjour ! Je voudrais réserver une table pour deux personnes."},
+      {"pt": "— Para que horas? — pergunta o [[empregado|empregado]].", "fr": "— Pour quelle heure ? demande le serveur."}
+    ],
+    [
+      {"pt": "— Para as oito e meia, por favor.", "fr": "— Pour huit heures et demie, s’il vous plaît."},
+      {"pt": "— Muito bem. [[Em nome de quem|emnome]]?", "fr": "— Très bien. À quel nom ?"},
+      {"pt": "— Em nome de Sofia. Até logo!", "fr": "— Au nom de Sofia. À tout à l’heure !"},
+      {"pt": "À noite, a Sofia e o [[namorado|namorado]] [[jantam|jantar]] peixe grelhado.", "fr": "Le soir, Sofia et son copain dînent d’un poisson grillé."}
+    ]
+  ],
+  "glossary": {
+    "telefonar": {"w": "telefonar para", "fr": "téléphoner à, appeler", "note": "telefona : elle appelle.", "new": true},
+    "reservar": {"w": "reservar", "fr": "réserver", "new": true},
+    "mesa": {"w": "a mesa", "fr": "la table", "new": true},
+    "empregado": {"w": "o empregado", "fr": "le serveur, l’employé", "note": "Tu l’as déjà vu au café de Lisbonne."},
+    "emnome": {"w": "em nome de quem?", "fr": "à quel nom ?", "note": "La question de toutes les réservations.", "new": true},
+    "namorado": {"w": "o namorado", "fr": "le petit ami, le copain", "note": "Au féminin : a namorada."},
+    "jantar": {"w": "jantar", "fr": "dîner", "note": "jantam : ils dînent. O jantar : le dîner.", "new": true}
+  },
+  "cloze": [
+    {"before": "— Boa tarde! Queria reservar uma", "answer": "mesa", "after": "para duas pessoas.", "options": ["mesa", "mês", "massa"],
+     "why": "Uma mesa = une table. Massa = des pâtes, mês = un mois."},
+    {"before": "— Muito bem. Em", "answer": "nome", "after": "de quem?", "options": ["nome", "número", "noite"],
+     "why": "Em nome de quem ? = À quel nom ? Une phrase toute faite des réservations."},
+    {"before": "À noite, a Sofia e o namorado", "answer": "jantam", "after": "peixe grelhado.", "options": ["jantam", "janta", "jantar"],
+     "why": "Ils sont deux (a Sofia e o namorado), donc jantam."}
+  ],
+  "oral": {
+    "question": {"pt": "Telefonas para um restaurante. O que dizes?", "fr": "Tu appelles un restaurant. Que dis-tu ?"},
+    "starter": "Boa tarde! Queria…",
+    "model": {"pt": "Boa tarde! Queria reservar uma mesa para duas pessoas.", "fr": "Bonjour ! Je voudrais réserver une table pour deux personnes."},
+    "keywords": ["queria", "reservar", "mesa", "pessoas"],
+    "tip": {"title": "Bom dia, boa tarde, boa noite", "text": "Bom dia le matin, boa tarde l’après-midi, boa noite dès qu’il fait nuit : ça sert à la fois de bonsoir et de bonne nuit."}
+  }
+}

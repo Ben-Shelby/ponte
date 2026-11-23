@@ -7,6 +7,10 @@ description: Prépare et publie une semaine de contenus Ponte (articles du jour 
 
 Ponte est l'appli de langues de l'utilisateur : un article court par jour, à lire le matin, puis un petit oral le soir. Ce skill est la recette validée par l'utilisateur le 19 novembre 2026. La routine doit rester sobre : l'utilisateur ne veut pas dépenser son quota Claude Pro pour rien.
 
+## 0 bis. Vérifier d'abord qu'on pourra publier
+
+Avant tout autre travail, lancer `git push --dry-run origin HEAD:main`. Si GitHub refuse (erreur 403, « Claude doesn't have GitHub access »), **s'arrêter tout de suite** sans rien générer : le travail serait perdu. Terminer par une ligne de compte rendu : « Ponte non publié : Claude n'a pas accès en écriture à Ben-Shelby/ponte. Installer l'application Claude sur ce dépôt : https://github.com/apps/claude/installations/select_target ».
+
 ## 0. Pause si l'utilisateur ne s'en sert plus
 
 1. Lire `content/config.json`, bloc `activity`.
@@ -23,7 +27,8 @@ Ponte est l'appli de langues de l'utilisateur : un article court par jour, à li
 
 ## 2. Trouver l'actualité (lundi à vendredi)
 
-- 5 sujets différents, publiés dans les 7 derniers jours, pris dans `config.themes.semaine`. Varier les thèmes sur la semaine.
+- 5 sujets différents, publiés de préférence dans les 7 derniers jours (jusqu'à un mois si l'actualité récente manque), pris dans `config.themes.semaine`. Varier les thèmes sur la semaine.
+- Dans la session cloud, beaucoup de sites d'actualité ne s'ouvrent pas avec WebFetch. Ne pas insister : s'appuyer sur les résultats de WebSearch, et ne retenir que des faits dont la date et la source apparaissent clairement dans ces résultats.
 - Sujets liés au Portugal, au Brésil ou à l'Europe quand c'est possible : énergie, IA et tech, infrastructures, business, géopolitique. Pas de faits divers, de violence ni de polémique gratuite.
 - Sources fiables, de préférence portugaises (Público, Expresso, Observador, ECO, Jornal de Negócios, RTP, Lusa, Dinheiro Vivo, portugal.gov.pt), sinon grandes agences. Une source par article, avec une URL réelle et vérifiée.
 - Ne jamais inventer un fait, un chiffre ou une citation. Simplifier, oui ; déformer, non. Un chiffre incertain ne se donne pas.

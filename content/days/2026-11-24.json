@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-24",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "IA et tech",
+  "level": "A1",
+  "title": {"pt": "Robôs e inteligência artificial em Lisboa", "fr": "Des robots et de l’intelligence artificielle à Lisbonne"},
+  "source": {"name": "Notícias ao Minuto", "url": "https://noticiasaominuto.com/tech/3080798/web-summit-comeca-com-robos-e-maior-presenca-da-china"},
+  "paragraphs": [
+    [
+      {"pt": "Todos os anos, Lisboa recebe a Web Summit, uma grande [[feira|feira]] de tecnologia.", "fr": "Chaque année, Lisbonne accueille le Web Summit, un grand salon de la technologie."},
+      {"pt": "Este ano, a feira [[foi|ser]] de 9 a 12 de novembro.", "fr": "Cette année, le salon a eu lieu du 9 au 12 novembre."},
+      {"pt": "O grande [[tema|tema]] é a inteligência artificial.", "fr": "Le grand thème, c’est l’intelligence artificielle."}
+    ],
+    [
+      {"pt": "No [[palco|palco]], [[há|haver]] [[robôs|robo]] que [[falam|falar]] como pessoas.", "fr": "Sur scène, il y a des robots qui parlent comme des personnes."},
+      {"pt": "A China tem a maior [[delegação|delegacao]] de sempre.", "fr": "La Chine a sa plus grande délégation jamais venue."},
+      {"pt": "O Governo diz que Portugal pode ser [[líder|lider]] na inteligência artificial.", "fr": "Le gouvernement dit que le Portugal peut être un leader de l’intelligence artificielle."}
+    ]
+  ],
+  "glossary": {
+    "feira": {"w": "a feira", "fr": "le salon, la foire", "note": "Uma feira de tecnologia : un salon de la technologie.", "new": true},
+    "ser": {"w": "ser", "fr": "être", "note": "foi : il ou elle a été, a eu lieu (passé). Verbe irrégulier."},
+    "tema": {"w": "o tema", "fr": "le thème, le sujet", "note": "Masculin malgré le -a final, comme o problema."},
+    "palco": {"w": "o palco", "fr": "la scène (de spectacle)", "new": true},
+    "haver": {"w": "há", "fr": "il y a", "note": "Há ne change jamais : há um robô, há robôs.", "new": true},
+    "robo": {"w": "o robô", "fr": "le robot", "note": "Pluriel : os robôs."},
+    "falar": {"w": "falar", "fr": "parler", "note": "falam : ils parlent. Eu falo : je parle.", "new": true},
+    "delegacao": {"w": "a delegação", "fr": "la délégation", "note": "A maior delegação de sempre : la plus grande délégation de tous les temps.", "new": true},
+    "lider": {"w": "o líder", "fr": "le leader, le chef de file"}
+  },
+  "cloze": [
+    {"before": "Todos os anos, Lisboa recebe a Web Summit, uma grande", "answer": "feira", "after": "de tecnologia.", "options": ["feira", "festa", "fila"],
+     "why": "Uma feira, c’est un salon ou une foire. Festa = fête, fila = file d’attente."},
+    {"before": "No palco,", "answer": "há", "after": "robôs que falam como pessoas.", "options": ["há", "tem", "é"],
+     "why": "Há = il y a. Au Brésil, on entend aussi « tem » dans ce sens, mais au Portugal on dit « há »."},
+    {"before": "A China tem a maior", "answer": "delegação", "after": "de sempre.", "options": ["delegação", "delegações", "delegado"],
+     "why": "« A maior » est au féminin singulier, comme delegação."}
+  ],
+  "oral": {
+    "question": {"pt": "O que há no palco da Web Summit?", "fr": "Qu’y a-t-il sur la scène du Web Summit ?"},
+    "starter": "No palco, há…",
+    "model": {"pt": "No palco, há robôs que falam como pessoas.", "fr": "Sur scène, il y a des robots qui parlent comme des personnes."},
+    "keywords": ["palco", "há", "robôs", "falam"],
+    "tip": {"title": "Il y a : há", "text": "Há vient du verbe haver, mais on l’apprend comme un mot tout fait : há um café aqui (il y a un café ici)."}
+  }
+}

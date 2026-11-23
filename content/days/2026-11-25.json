@@ -1,0 +1,47 @@
+{
+  "id": "2026-11-25",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Géopolitique",
+  "level": "A1",
+  "title": {"pt": "O clima em debate na Turquia", "fr": "Le climat en débat en Turquie"},
+  "source": {"name": "Diário de Notícias", "url": "https://www.dn.pt/sociedade/cop31-arranca-com-apelos-a-resultados-e-portugal-a-assumir-negociaes-pela-ue"},
+  "paragraphs": [
+    [
+      {"pt": "Em novembro, quase todos os países do [[mundo|mundo]] [[reúnem-se|reunir]] em Antália, na Turquia.", "fr": "En novembre, presque tous les pays du monde se réunissent à Antalya, en Turquie."},
+      {"pt": "É a COP31, a grande conferência da ONU sobre o [[clima|clima]].", "fr": "C’est la COP31, la grande conférence de l’ONU sur le climat."},
+      {"pt": "A conferência [[dura|durar]] duas semanas, de 9 a 20 de novembro.", "fr": "La conférence dure deux semaines, du 9 au 20 novembre."}
+    ],
+    [
+      {"pt": "Os países [[discutem|discutir]] como [[deixar|deixar]] o petróleo, o gás e o [[carvão|carvao]].", "fr": "Les pays discutent de la façon d’abandonner le pétrole, le gaz et le charbon."},
+      {"pt": "Portugal também está lá, com um [[pavilhão|pavilhao]] nacional.", "fr": "Le Portugal est là aussi, avec un pavillon national."},
+      {"pt": "O país [[defende|defender]] uma transição energética ambiciosa.", "fr": "Le pays défend une transition énergétique ambitieuse."}
+    ]
+  ],
+  "glossary": {
+    "mundo": {"w": "o mundo", "fr": "le monde", "note": "Todo o mundo : tout le monde (au Brésil). Au Portugal, on dit plutôt toda a gente.", "new": true},
+    "reunir": {"w": "reunir-se", "fr": "se réunir", "note": "reúnem-se : ils se réunissent. Le pronom se place après le verbe.", "new": true},
+    "clima": {"w": "o clima", "fr": "le climat", "note": "Masculin, comme en français, malgré le -a final."},
+    "durar": {"w": "durar", "fr": "durer", "note": "dura : elle dure.", "new": true},
+    "discutir": {"w": "discutir", "fr": "discuter, débattre"},
+    "deixar": {"w": "deixar", "fr": "laisser, abandonner", "note": "deixar o carvão : abandonner le charbon.", "new": true},
+    "carvao": {"w": "o carvão", "fr": "le charbon", "new": true},
+    "pavilhao": {"w": "o pavilhão", "fr": "le pavillon, le stand"},
+    "defender": {"w": "defender", "fr": "défendre", "note": "defende : il ou elle défend."}
+  },
+  "cloze": [
+    {"before": "É a COP31, a grande conferência da ONU sobre o", "answer": "clima", "after": ".", "options": ["clima", "climas", "calor"],
+     "why": "O clima = le climat. Calor, c’est la chaleur ; climas serait un pluriel, alors que « o » est au singulier."},
+    {"before": "Os países discutem como deixar o petróleo, o gás e o", "answer": "carvão", "after": ".", "options": ["carvão", "carro", "cavalo"],
+     "why": "O carvão = le charbon. Avec le pétrole et le gaz, ce sont les énergies fossiles."},
+    {"before": "A conferência", "answer": "dura", "after": "duas semanas.", "options": ["dura", "duram", "durar"],
+     "why": "A conferência est seule, donc dura. Duram, c’est pour plusieurs."}
+  ],
+  "oral": {
+    "question": {"pt": "O que é que os países discutem na COP31?", "fr": "De quoi les pays discutent-ils à la COP31 ?"},
+    "starter": "Os países discutem…",
+    "model": {"pt": "Os países discutem como deixar o petróleo e o carvão.", "fr": "Les pays discutent de la façon d’abandonner le pétrole et le charbon."},
+    "keywords": ["países", "discutem", "deixar", "carvão"],
+    "tip": {"title": "Deixar, un verbe utile", "text": "Deixar veut dire laisser ou abandonner : deixar o carvão (abandonner le charbon), deixar o carro em casa (laisser la voiture à la maison)."}
+  }
+}

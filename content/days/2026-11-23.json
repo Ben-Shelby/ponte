@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-23",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Business",
+  "level": "A1",
+  "title": {"pt": "Portugal vende mais ao estrangeiro", "fr": "Le Portugal vend davantage à l’étranger"},
+  "source": {"name": "Portugal Global", "url": "https://www.portugalglobal.pt/pt/noticias/2026/novembro/exportacoes-de-bens-atingem-maximo-desde-julho-de-2024/"},
+  "paragraphs": [
+    [
+      {"pt": "Portugal [[vende|vender]] muitos produtos a outros países.", "fr": "Le Portugal vend beaucoup de produits à d’autres pays."},
+      {"pt": "Estas vendas chamam-se [[exportações|exportacao]].", "fr": "Ces ventes s’appellent des exportations."},
+      {"pt": "Em setembro, as exportações [[chegaram a|chegar]] 7,6 [[mil milhões|milmilhoes]] de euros.", "fr": "En septembre, les exportations ont atteint 7,6 milliards d’euros."}
+    ],
+    [
+      {"pt": "É o [[valor|valor]] mais alto desde julho de 2024.", "fr": "C’est le montant le plus élevé depuis juillet 2024."},
+      {"pt": "Comparadas com setembro do ano passado, as exportações [[sobem|subir]] 5,7 %.", "fr": "Par rapport à septembre de l’an dernier, les exportations augmentent de 5,7 %."},
+      {"pt": "Para as [[empresas|empresa]] portuguesas, é uma boa [[notícia|noticia]].", "fr": "Pour les entreprises portugaises, c’est une bonne nouvelle."}
+    ]
+  ],
+  "glossary": {
+    "vender": {"w": "vender", "fr": "vendre", "note": "vende : il ou elle vend. Eu vendo : je vends.", "new": true},
+    "exportacao": {"w": "a exportação", "fr": "l’exportation", "note": "Pluriel en -ões : as exportações.", "new": true},
+    "chegar": {"w": "chegar a", "fr": "arriver à, atteindre", "note": "chegaram a : ils ont atteint (passé)."},
+    "milmilhoes": {"w": "mil milhões", "fr": "un milliard", "note": "Au Portugal, un milliard se dit « mille millions ». Au Brésil, on dit « um bilhão ».", "new": true},
+    "valor": {"w": "o valor", "fr": "la valeur, le montant", "new": true},
+    "subir": {"w": "subir", "fr": "monter, augmenter", "note": "sobem : elles montent. Attention, le o devient u à l’infinitif.", "new": true},
+    "empresa": {"w": "a empresa", "fr": "l’entreprise"},
+    "noticia": {"w": "a notícia", "fr": "la nouvelle, l’information", "note": "Uma boa notícia : une bonne nouvelle.", "new": true}
+  },
+  "cloze": [
+    {"before": "Portugal", "answer": "vende", "after": "muitos produtos a outros países.", "options": ["vende", "vendem", "vender"],
+     "why": "Portugal est un seul sujet, donc vende. Vendem, c’est pour plusieurs (as empresas vendem)."},
+    {"before": "Em setembro, as exportações chegaram a 7,6", "answer": "mil milhões", "after": "de euros.", "options": ["mil milhões", "milhões", "mil"],
+     "why": "Au Portugal, un milliard se dit mil milhões, littéralement « mille millions »."},
+    {"before": "Para as empresas portuguesas, é uma boa", "answer": "notícia", "after": ".", "options": ["notícia", "notícias", "novo"],
+     "why": "Uma boa notícia : une bonne nouvelle. « Uma » appelle le singulier."}
+  ],
+  "oral": {
+    "question": {"pt": "Como estão as exportações portuguesas?", "fr": "Comment vont les exportations portugaises ?"},
+    "starter": "As exportações portuguesas…",
+    "model": {"pt": "As exportações portuguesas estão a subir.", "fr": "Les exportations portugaises sont en train d’augmenter."},
+    "keywords": ["exportações", "estão", "subir"],
+    "tip": {"title": "Estar a + infinitif", "text": "Pour dire « être en train de », les Portugais disent estar a + infinitif : estão a subir. Au Brésil, on dit plutôt estão subindo."}
+  }
+}

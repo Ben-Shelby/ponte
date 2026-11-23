@@ -1,10 +1,17 @@
 {
-  "updated": "2026-11-19",
+  "updated": "2026-11-23",
   "days": [
     {"id": "2026-11-19", "kind": "actu", "theme": "Énergie et IA", "title": {"pt": "Os centros de dados vão usar energia verde", "fr": "Les data centers devront utiliser de l’énergie verte"}},
     {"id": "2026-11-20", "kind": "actu", "theme": "Énergie", "title": {"pt": "Portugal entre os melhores da Europa", "fr": "Le Portugal parmi les meilleurs d’Europe"}},
     {"id": "2026-11-21", "kind": "detente", "theme": "Sorties", "title": {"pt": "Um café em Lisboa", "fr": "Un café à Lisbonne"}},
-    {"id": "2026-11-22", "kind": "detente", "theme": "Voyage", "title": {"pt": "Um domingo no Porto", "fr": "Un dimanche à Porto"}}
+    {"id": "2026-11-22", "kind": "detente", "theme": "Voyage", "title": {"pt": "Um domingo no Porto", "fr": "Un dimanche à Porto"}},
+    {"id": "2026-11-23", "kind": "actu", "theme": "Business", "title": {"pt": "Portugal vende mais ao estrangeiro", "fr": "Le Portugal vend davantage à l’étranger"}},
+    {"id": "2026-11-24", "kind": "actu", "theme": "IA et tech", "title": {"pt": "Robôs e inteligência artificial em Lisboa", "fr": "Des robots et de l’intelligence artificielle à Lisbonne"}},
+    {"id": "2026-11-25", "kind": "actu", "theme": "Géopolitique", "title": {"pt": "O clima em debate na Turquia", "fr": "Le climat en débat en Turquie"}},
+    {"id": "2026-11-26", "kind": "actu", "theme": "Infrastructures", "title": {"pt": "Um comboio rápido entre Porto e Lisboa", "fr": "Un train rapide entre Porto et Lisbonne"}},
+    {"id": "2026-11-27", "kind": "actu", "theme": "Énergie", "title": {"pt": "Vizinhos que partilham o sol", "fr": "Des voisins qui partagent le soleil"}},
+    {"id": "2026-11-28", "kind": "detente", "theme": "Sorties", "title": {"pt": "Uma mesa para dois", "fr": "Une table pour deux"}},
+    {"id": "2026-11-29", "kind": "detente", "theme": "Sport", "title": {"pt": "Futebol no café", "fr": "Du foot au café"}}
   ],
   "reserve": [
     {"id": "reserve-mercado", "kind": "detente", "theme": "Cuisine", "title": {"pt": "No mercado", "fr": "Au marché"}},

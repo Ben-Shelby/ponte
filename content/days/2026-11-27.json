@@ -1,0 +1,45 @@
+{
+  "id": "2026-11-27",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Énergie",
+  "level": "A1",
+  "title": {"pt": "Vizinhos que partilham o sol", "fr": "Des voisins qui partagent le soleil"},
+  "source": {"name": "Governo de Portugal", "url": "https://portugal.gov.pt/gc25/comunicacao/noticias/energia-autoconsumo-coletivo-cresce-142-em-2026"},
+  "paragraphs": [
+    [
+      {"pt": "Em Portugal, cada vez mais [[vizinhos|vizinho]] [[partilham|partilhar]] a energia do sol.", "fr": "Au Portugal, de plus en plus de voisins partagent l’énergie du soleil."},
+      {"pt": "Os [[painéis solares|painel]] ficam no [[telhado|telhado]] de um prédio ou de uma escola.", "fr": "Les panneaux solaires sont installés sur le toit d’un immeuble ou d’une école."},
+      {"pt": "A eletricidade [[serve|servir]] várias casas ao mesmo tempo.", "fr": "L’électricité alimente plusieurs logements en même temps."}
+    ],
+    [
+      {"pt": "Isto chama-se [[autoconsumo coletivo|autoconsumo]].", "fr": "Cela s’appelle l’autoconsommation collective."},
+      {"pt": "Segundo o Governo, entre janeiro e setembro, este modelo [[cresceu|crescer]] 142 %.", "fr": "Selon le gouvernement, entre janvier et septembre, ce modèle a progressé de 142 %."},
+      {"pt": "Assim, as famílias podem pagar menos pela eletricidade.", "fr": "Ainsi, les familles peuvent payer moins cher leur électricité."}
+    ]
+  ],
+  "glossary": {
+    "vizinho": {"w": "o vizinho", "fr": "le voisin", "note": "Au féminin : a vizinha.", "new": true},
+    "partilhar": {"w": "partilhar", "fr": "partager", "note": "partilham : ils partagent. Au Brésil, on dit plutôt compartilhar.", "new": true},
+    "painel": {"w": "o painel solar", "fr": "le panneau solaire", "note": "Pluriel : os painéis solares.", "new": true},
+    "telhado": {"w": "o telhado", "fr": "le toit", "new": true},
+    "servir": {"w": "servir", "fr": "servir, alimenter", "note": "serve : il ou elle sert."},
+    "autoconsumo": {"w": "o autoconsumo coletivo", "fr": "l’autoconsommation collective"},
+    "crescer": {"w": "crescer", "fr": "croître, grandir", "note": "cresceu : il a grandi (passé).", "new": true}
+  },
+  "cloze": [
+    {"before": "Em Portugal, cada vez mais vizinhos", "answer": "partilham", "after": "a energia do sol.", "options": ["partilham", "partilha", "partilhar"],
+     "why": "Os vizinhos sont plusieurs, donc partilham."},
+    {"before": "Os painéis solares ficam no", "answer": "telhado", "after": "de um prédio ou de uma escola.", "options": ["telhado", "teclado", "tapete"],
+     "why": "O telhado = le toit. Teclado = clavier, tapete = tapis : attention aux mots qui se ressemblent."},
+    {"before": "Assim, as famílias podem", "answer": "pagar", "after": "menos pela eletricidade.", "options": ["pagar", "pagam", "paga"],
+     "why": "Après podem (elles peuvent), on met l’infinitif : podem pagar."}
+  ],
+  "oral": {
+    "question": {"pt": "O que é que os vizinhos partilham?", "fr": "Qu’est-ce que les voisins partagent ?"},
+    "starter": "Os vizinhos partilham…",
+    "model": {"pt": "Os vizinhos partilham a energia do sol.", "fr": "Les voisins partagent l’énergie du soleil."},
+    "keywords": ["vizinhos", "partilham", "energia", "sol"],
+    "tip": {"title": "Partilhar, au Portugal", "text": "Au Portugal, partager se dit partilhar. Au Brésil, on dit plutôt compartilhar : retiens la version portugaise."}
+  }
+}

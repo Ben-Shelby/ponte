@@ -1,0 +1,46 @@
+{
+  "id": "2026-11-26",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Infrastructures",
+  "level": "A1",
+  "title": {"pt": "Um comboio rápido entre Porto e Lisboa", "fr": "Un train rapide entre Porto et Lisbonne"},
+  "source": {"name": "Governo de Portugal", "url": "https://portugal.gov.pt/gc25/comunicacao/comunicados/governo-arranca-com-alta-velocidade-porto-oia-ligacao-porto-lisboa-em-1h15-e-ligacao-a-europa-em-marcha"},
+  "paragraphs": [
+    [
+      {"pt": "Portugal está a [[construir|construir]] uma linha de [[alta velocidade|altavelocidade]].", "fr": "Le Portugal construit une ligne à grande vitesse."},
+      {"pt": "No futuro, a viagem entre Porto e Lisboa vai [[demorar|demorar]] só 1 hora e 15 minutos.", "fr": "À l’avenir, le trajet entre Porto et Lisbonne ne prendra que 1 h 15."},
+      {"pt": "As [[obras|obra]] do primeiro [[troço|troco]], entre Porto e Oiã, já começaram.", "fr": "Les travaux du premier tronçon, entre Porto et Oiã, ont déjà commencé."}
+    ],
+    [
+      {"pt": "Este troço tem 71 quilómetros e uma nova [[ponte|ponte]] sobre o rio Douro.", "fr": "Ce tronçon mesure 71 kilomètres et compte un nouveau pont sur le Douro."},
+      {"pt": "A CP vai comprar 12 [[comboios|comboio]] novos para esta linha.", "fr": "La CP va acheter 12 trains neufs pour cette ligne."},
+      {"pt": "A linha completa deve ficar [[pronta|pronto]] por volta de 2032.", "fr": "La ligne complète devrait être prête vers 2032."}
+    ]
+  ],
+  "glossary": {
+    "construir": {"w": "construir", "fr": "construire", "note": "está a construir : est en train de construire."},
+    "altavelocidade": {"w": "a alta velocidade", "fr": "la grande vitesse", "note": "Les Portugais disent aussi « o TGV », comme en français.", "new": true},
+    "demorar": {"w": "demorar", "fr": "prendre du temps, durer", "note": "vai demorar : va prendre. A viagem demora uma hora : le trajet prend une heure.", "new": true},
+    "obra": {"w": "as obras", "fr": "les travaux", "note": "Au singulier, uma obra : un chantier ou une œuvre.", "new": true},
+    "troco": {"w": "o troço", "fr": "le tronçon", "new": true},
+    "ponte": {"w": "a ponte", "fr": "le pont", "note": "Comme le nom de ton appli. Féminin en portugais."},
+    "comboio": {"w": "o comboio", "fr": "le train", "note": "La CP (Comboios de Portugal) est la compagnie ferroviaire du pays."},
+    "pronto": {"w": "pronto, pronta", "fr": "prêt, prête", "note": "A linha est féminin : pronta.", "new": true}
+  },
+  "cloze": [
+    {"before": "No futuro, a viagem entre Porto e Lisboa vai", "answer": "demorar", "after": "só 1 hora e 15 minutos.", "options": ["demorar", "demora", "demoram"],
+     "why": "Après vai, on met l’infinitif : vai demorar (va prendre)."},
+    {"before": "Portugal está a", "answer": "construir", "after": "uma linha de alta velocidade.", "options": ["construir", "constrói", "construído"],
+     "why": "Estar a + infinitif : está a construir = est en train de construire."},
+    {"before": "A linha completa deve ficar", "answer": "pronta", "after": "por volta de 2032.", "options": ["pronta", "pronto", "prontas"],
+     "why": "A linha est féminin singulier, donc pronta."}
+  ],
+  "oral": {
+    "question": {"pt": "Quanto tempo vai demorar a viagem entre Porto e Lisboa?", "fr": "Combien de temps prendra le trajet entre Porto et Lisbonne ?"},
+    "starter": "A viagem vai demorar…",
+    "model": {"pt": "A viagem vai demorar uma hora e quinze minutos.", "fr": "Le trajet prendra une heure et quart."},
+    "keywords": ["viagem", "vai", "demorar", "hora"],
+    "tip": {"title": "Dire une durée", "text": "Demorar = prendre du temps : a viagem demora uma hora. « Uma hora e quinze minutos » se dit aussi « uma hora e um quarto »."}
+  }
+}

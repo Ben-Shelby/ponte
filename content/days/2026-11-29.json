@@ -1,0 +1,44 @@
+{
+  "id": "2026-11-29",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Sport",
+  "level": "A1",
+  "title": {"pt": "Futebol no café", "fr": "Du foot au café"},
+  "source": null,
+  "paragraphs": [
+    [
+      {"pt": "Hoje há [[jogo|jogo]] de futebol e o Miguel vê o jogo no café do bairro.", "fr": "Aujourd’hui, il y a un match de foot et Miguel le regarde au café du quartier."},
+      {"pt": "O café está [[cheio|cheio]] de gente.", "fr": "Le café est plein de monde."},
+      {"pt": "Todos olham para a televisão.", "fr": "Tout le monde regarde la télévision."}
+    ],
+    [
+      {"pt": "De repente, a [[equipa|equipa]] do Miguel [[marca|marcar]] um [[golo|golo]]!", "fr": "Tout à coup, l’équipe de Miguel marque un but !"},
+      {"pt": "— Golo! — [[gritam|gritar]] as pessoas.", "fr": "— But ! crient les gens."},
+      {"pt": "No fim, a equipa ganha por dois a um e o Miguel volta para casa feliz.", "fr": "À la fin, l’équipe gagne deux à un et Miguel rentre chez lui content."}
+    ]
+  ],
+  "glossary": {
+    "jogo": {"w": "o jogo", "fr": "le match, le jeu", "new": true},
+    "cheio": {"w": "cheio, cheia", "fr": "plein, pleine", "note": "Cheio de gente : plein de monde.", "new": true},
+    "equipa": {"w": "a equipa", "fr": "l’équipe", "note": "Au Portugal : a equipa. Au Brésil : o time.", "new": true},
+    "marcar": {"w": "marcar", "fr": "marquer", "note": "marca um golo : il marque un but. Marcar sert aussi à prendre rendez-vous.", "new": true},
+    "golo": {"w": "o golo", "fr": "le but (au football)", "note": "Au Portugal : golo. Au Brésil : gol.", "new": true},
+    "gritar": {"w": "gritar", "fr": "crier", "note": "gritam : ils crient.", "new": true}
+  },
+  "cloze": [
+    {"before": "O café está", "answer": "cheio", "after": "de gente.", "options": ["cheio", "cheia", "chefe"],
+     "why": "O café est masculin, donc cheio. Avec un mot féminin : a sala está cheia."},
+    {"before": "De repente, a equipa do Miguel marca um", "answer": "golo", "after": "!", "options": ["golo", "gol", "bolo"],
+     "why": "Au Portugal, un but se dit golo. Gol, c’est au Brésil, et bolo, c’est un gâteau !"},
+    {"before": "— Golo! —", "answer": "gritam", "after": "as pessoas.", "options": ["gritam", "grita", "gritar"],
+     "why": "As pessoas sont plusieurs, donc gritam."}
+  ],
+  "oral": {
+    "question": {"pt": "Onde vês os jogos de futebol?", "fr": "Où regardes-tu les matchs de foot ?"},
+    "starter": "Vejo os jogos…",
+    "model": {"pt": "Vejo os jogos de futebol no café com amigos.", "fr": "Je regarde les matchs de foot au café avec des amis."},
+    "keywords": ["vejo", "jogos", "café"],
+    "tip": {"title": "Ver, je vois", "text": "Ver (voir, regarder) est irrégulier : eu vejo (je vois), tu vês, ele vê. Pour un match : ver o jogo."}
+  }
+}
