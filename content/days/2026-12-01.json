@@ -1,0 +1,154 @@
+{
+  "id": "2026-12-01",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "IA et tech",
+  "level": "A1",
+  "title": {
+    "pt": "Mais de metade das pessoas usa IA",
+    "fr": "Plus de la moitié des gens utilisent l’IA"
+  },
+  "source": {
+    "name": "Notícias ao Minuto",
+    "url": "https://www.noticiasaominuto.com/tech/3087447/mais-de-metade-da-populacao-entre-os-16-e-os-74-anos-usa-inteligencia-artificial-ine"
+  },
+  "paragraphs": [
+    [
+      {
+        "pt": "Segundo o INE, mais de [[metade|metade]] das pessoas entre 16 e 74 anos já [[usou|usar]] [[ferramentas|ferramenta]] de inteligência artificial.",
+        "fr": "Selon l’INE, plus de la moitié des personnes de 16 à 74 ans ont déjà utilisé des outils d’intelligence artificielle."
+      },
+      {
+        "pt": "O número exato é 54,4 %.",
+        "fr": "Le chiffre exact est 54,4 %."
+      },
+      {
+        "pt": "[[Usam-na|usar]] sobretudo na vida [[pessoal|pessoal]].",
+        "fr": "Ils l’utilisent surtout dans leur vie personnelle."
+      }
+    ],
+    [
+      {
+        "pt": "Nas [[empresas|empresa]], o uso é [[menor|menor]]: 19,6 %.",
+        "fr": "Dans les entreprises, l’usage est moindre : 19,6 %."
+      },
+      {
+        "pt": "Mas a [[percentagem|percentagem]] das empresas [[sobe|subir]] muito: mais 8,1 pontos do que em 2025.",
+        "fr": "Mais le pourcentage d’entreprises monte beaucoup : 8,1 points de plus qu’en 2025."
+      },
+      {
+        "pt": "A IA está cada vez mais [[presente|presente]] no dia a dia.",
+        "fr": "L’IA est de plus en plus présente au quotidien."
+      }
+    ]
+  ],
+  "glossary": {
+    "metade": {
+      "w": "a metade",
+      "fr": "la moitié",
+      "note": "Mot féminin : a metade. mais de metade = plus de la moitié.",
+      "new": true
+    },
+    "usar": {
+      "w": "usar",
+      "fr": "utiliser",
+      "note": "usou : il ou elle a utilisé (passé).",
+      "new": true
+    },
+    "ferramenta": {
+      "w": "a ferramenta",
+      "fr": "l’outil",
+      "note": "Pluriel : as ferramentas.",
+      "new": true
+    },
+    "pessoal": {
+      "w": "pessoal",
+      "fr": "personnel",
+      "note": "Même forme au masculin et au féminin.",
+      "new": true
+    },
+    "empresa": {
+      "w": "a empresa",
+      "fr": "l’entreprise",
+      "note": "Pluriel : as empresas."
+    },
+    "menor": {
+      "w": "menor",
+      "fr": "plus petit, moindre",
+      "note": "Le contraire de maior."
+    },
+    "percentagem": {
+      "w": "a percentagem",
+      "fr": "le pourcentage",
+      "note": "Mot féminin en portugais.",
+      "new": true
+    },
+    "subir": {
+      "w": "subir",
+      "fr": "monter",
+      "note": "sobe : il ou elle monte."
+    },
+    "presente": {
+      "w": "presente",
+      "fr": "présent",
+      "note": "Se prononce avec un e final presque muet.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "Mais de",
+      "answer": "metade",
+      "after": "das pessoas entre 16 e 74 anos.",
+      "options": [
+        "metade",
+        "meio",
+        "mitade"
+      ],
+      "why": "« La moitié » se dit a metade ; meio est un adjectif (meio litro)."
+    },
+    {
+      "before": "Nas empresas, o uso é",
+      "answer": "menor",
+      "after": "19,6 %.",
+      "options": [
+        "menor",
+        "maior",
+        "melhor"
+      ],
+      "why": "Menor = plus petit. Maior = plus grand : le contraire."
+    },
+    {
+      "before": "A IA está cada vez mais",
+      "answer": "presente",
+      "after": "no dia a dia.",
+      "options": [
+        "presente",
+        "presentes",
+        "presença"
+      ],
+      "why": "IA est au singulier : presente. Presentes serait le pluriel."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "Quem usa mais a IA: as pessoas ou as empresas?",
+      "fr": "Qui utilise le plus l’IA : les gens ou les entreprises ?"
+    },
+    "starter": "As pessoas usam…",
+    "model": {
+      "pt": "As pessoas usam mais a IA do que as empresas.",
+      "fr": "Les gens utilisent plus l’IA que les entreprises."
+    },
+    "keywords": [
+      "pessoas",
+      "usam",
+      "mais",
+      "empresas"
+    ],
+    "tip": {
+      "title": "Mais … do que",
+      "text": "Pour comparer, on dit mais … do que : mais rápido do que, mais IA do que."
+    }
+  }
+}

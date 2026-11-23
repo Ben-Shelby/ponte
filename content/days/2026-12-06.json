@@ -1,0 +1,151 @@
+{
+  "id": "2026-12-06",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Sorties",
+  "level": "A1",
+  "title": {
+    "pt": "Onde fica a estação?",
+    "fr": "Où est la gare ?"
+  },
+  "source": null,
+  "paragraphs": [
+    [
+      {
+        "pt": "A Clara está em Coimbra e [[procura|procurar]] a [[estação|estacao]].",
+        "fr": "Clara est à Coimbra et cherche la gare."
+      },
+      {
+        "pt": "— Desculpe, onde [[fica|ficar]] a estação, por favor?",
+        "fr": "— Excusez-moi, où est la gare, s’il vous plaît ?"
+      },
+      {
+        "pt": "— Siga sempre em frente e [[vire|virar]] à [[direita|direita]].",
+        "fr": "— Allez toujours tout droit et tournez à droite."
+      }
+    ],
+    [
+      {
+        "pt": "— É [[longe|longe]]?",
+        "fr": "— C’est loin ?"
+      },
+      {
+        "pt": "— Não, é [[perto|perto]]. São cinco minutos a pé.",
+        "fr": "— Non, c’est près. Ce sont cinq minutes à pied."
+      },
+      {
+        "pt": "— Muito obrigada!",
+        "fr": "— Merci beaucoup !"
+      },
+      {
+        "pt": "A Clara [[agradece|agradecer]] e segue em frente.",
+        "fr": "Clara remercie et continue tout droit."
+      }
+    ]
+  ],
+  "glossary": {
+    "procurar": {
+      "w": "procurar",
+      "fr": "chercher",
+      "note": "procura : il ou elle cherche.",
+      "new": true
+    },
+    "estacao": {
+      "w": "a estação",
+      "fr": "la gare, la station",
+      "note": "Pluriel : as estações.",
+      "new": true
+    },
+    "ficar": {
+      "w": "ficar",
+      "fr": "se trouver, rester",
+      "note": "Pour demander un lieu : onde fica… ?",
+      "new": true
+    },
+    "virar": {
+      "w": "virar",
+      "fr": "tourner",
+      "note": "vire : tournez (poli).",
+      "new": true
+    },
+    "direita": {
+      "w": "a direita",
+      "fr": "la droite",
+      "note": "À gauche : à esquerda.",
+      "new": true
+    },
+    "longe": {
+      "w": "longe",
+      "fr": "loin",
+      "note": "Le contraire : perto.",
+      "new": true
+    },
+    "perto": {
+      "w": "perto",
+      "fr": "près",
+      "note": "Le contraire de longe."
+    },
+    "agradecer": {
+      "w": "agradecer",
+      "fr": "remercier",
+      "note": "agradece : il ou elle remercie.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "— Desculpe, onde",
+      "answer": "fica",
+      "after": "a estação, por favor?",
+      "options": [
+        "fica",
+        "ficam",
+        "ficar"
+      ],
+      "why": "A estação est singulier : onde fica… ?"
+    },
+    {
+      "before": "— Siga sempre em frente e vire à",
+      "answer": "direita",
+      "after": ".",
+      "options": [
+        "direita",
+        "esquerda",
+        "frente"
+      ],
+      "why": "À direita = à droite ; à esquerda = à gauche."
+    },
+    {
+      "before": "— Não, é",
+      "answer": "perto",
+      "after": ".",
+      "options": [
+        "perto",
+        "longe",
+        "cedo"
+      ],
+      "why": "Perto = près ; longe = loin. Cedo = tôt : un autre mot."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "Estás em Coimbra. Como perguntas onde fica a estação?",
+      "fr": "Tu es à Coimbra. Comment demandes-tu où est la gare ?"
+    },
+    "starter": "Desculpe, onde fica…",
+    "model": {
+      "pt": "Desculpe, onde fica a estação, por favor?",
+      "fr": "Excusez-moi, où est la gare, s’il vous plaît ?"
+    },
+    "keywords": [
+      "Desculpe",
+      "onde",
+      "fica",
+      "estação"
+    ],
+    "tip": {
+      "title": "Poli avec un inconnu",
+      "text": "Avec un inconnu, on dit Desculpe (forme polie), pas « desculpa ». Ensuite on ne tutoie pas."
+    }
+  }
+}

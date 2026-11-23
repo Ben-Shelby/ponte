@@ -1,20 +1,196 @@
 {
-  "updated": "2026-11-23",
-  "days": [
-    {"id": "2026-11-19", "kind": "actu", "theme": "Énergie et IA", "title": {"pt": "Os centros de dados vão usar energia verde", "fr": "Les data centers devront utiliser de l’énergie verte"}},
-    {"id": "2026-11-20", "kind": "actu", "theme": "Énergie", "title": {"pt": "Portugal entre os melhores da Europa", "fr": "Le Portugal parmi les meilleurs d’Europe"}},
-    {"id": "2026-11-21", "kind": "detente", "theme": "Sorties", "title": {"pt": "Um café em Lisboa", "fr": "Un café à Lisbonne"}},
-    {"id": "2026-11-22", "kind": "detente", "theme": "Voyage", "title": {"pt": "Um domingo no Porto", "fr": "Un dimanche à Porto"}},
-    {"id": "2026-11-23", "kind": "actu", "theme": "Business", "title": {"pt": "Portugal vende mais ao estrangeiro", "fr": "Le Portugal vend davantage à l’étranger"}},
-    {"id": "2026-11-24", "kind": "actu", "theme": "IA et tech", "title": {"pt": "Robôs e inteligência artificial em Lisboa", "fr": "Des robots et de l’intelligence artificielle à Lisbonne"}},
-    {"id": "2026-11-25", "kind": "actu", "theme": "Géopolitique", "title": {"pt": "O clima em debate na Turquia", "fr": "Le climat en débat en Turquie"}},
-    {"id": "2026-11-26", "kind": "actu", "theme": "Infrastructures", "title": {"pt": "Um comboio rápido entre Porto e Lisboa", "fr": "Un train rapide entre Porto et Lisbonne"}},
-    {"id": "2026-11-27", "kind": "actu", "theme": "Énergie", "title": {"pt": "Vizinhos que partilham o sol", "fr": "Des voisins qui partagent le soleil"}},
-    {"id": "2026-11-28", "kind": "detente", "theme": "Sorties", "title": {"pt": "Uma mesa para dois", "fr": "Une table pour deux"}},
-    {"id": "2026-11-29", "kind": "detente", "theme": "Sport", "title": {"pt": "Futebol no café", "fr": "Du foot au café"}}
-  ],
-  "reserve": [
-    {"id": "reserve-mercado", "kind": "detente", "theme": "Cuisine", "title": {"pt": "No mercado", "fr": "Au marché"}},
-    {"id": "reserve-comboio", "kind": "detente", "theme": "Voyage", "title": {"pt": "Apanhar o comboio", "fr": "Prendre le train"}}
-  ]
+ "updated": "2026-11-23",
+ "days": [
+  {
+   "id": "2026-11-19",
+   "kind": "actu",
+   "theme": "Énergie et IA",
+   "title": {
+    "pt": "Os centros de dados vão usar energia verde",
+    "fr": "Les data centers devront utiliser de l’énergie verte"
+   }
+  },
+  {
+   "id": "2026-11-20",
+   "kind": "actu",
+   "theme": "Énergie",
+   "title": {
+    "pt": "Portugal entre os melhores da Europa",
+    "fr": "Le Portugal parmi les meilleurs d’Europe"
+   }
+  },
+  {
+   "id": "2026-11-21",
+   "kind": "detente",
+   "theme": "Sorties",
+   "title": {
+    "pt": "Um café em Lisboa",
+    "fr": "Un café à Lisbonne"
+   }
+  },
+  {
+   "id": "2026-11-22",
+   "kind": "detente",
+   "theme": "Voyage",
+   "title": {
+    "pt": "Um domingo no Porto",
+    "fr": "Un dimanche à Porto"
+   }
+  },
+  {
+   "id": "2026-11-23",
+   "kind": "actu",
+   "theme": "Business",
+   "title": {
+    "pt": "Portugal vende mais ao estrangeiro",
+    "fr": "Le Portugal vend davantage à l’étranger"
+   }
+  },
+  {
+   "id": "2026-11-24",
+   "kind": "actu",
+   "theme": "IA et tech",
+   "title": {
+    "pt": "Robôs e inteligência artificial em Lisboa",
+    "fr": "Des robots et de l’intelligence artificielle à Lisbonne"
+   }
+  },
+  {
+   "id": "2026-11-25",
+   "kind": "actu",
+   "theme": "Géopolitique",
+   "title": {
+    "pt": "O clima em debate na Turquia",
+    "fr": "Le climat en débat en Turquie"
+   }
+  },
+  {
+   "id": "2026-11-26",
+   "kind": "actu",
+   "theme": "Infrastructures",
+   "title": {
+    "pt": "Um comboio rápido entre Porto e Lisboa",
+    "fr": "Un train rapide entre Porto et Lisbonne"
+   }
+  },
+  {
+   "id": "2026-11-27",
+   "kind": "actu",
+   "theme": "Énergie",
+   "title": {
+    "pt": "Vizinhos que partilham o sol",
+    "fr": "Des voisins qui partagent le soleil"
+   }
+  },
+  {
+   "id": "2026-11-28",
+   "kind": "detente",
+   "theme": "Sorties",
+   "title": {
+    "pt": "Uma mesa para dois",
+    "fr": "Une table pour deux"
+   }
+  },
+  {
+   "id": "2026-11-29",
+   "kind": "detente",
+   "theme": "Sport",
+   "title": {
+    "pt": "Futebol no café",
+    "fr": "Du foot au café"
+   }
+  },
+  {
+   "id": "2026-11-30",
+   "kind": "actu",
+   "theme": "Énergie",
+   "title": {
+    "pt": "As renováveis dão eletricidade ao país",
+    "fr": "Les renouvelables fournissent l’électricité du pays"
+   }
+  },
+  {
+   "id": "2026-12-01",
+   "kind": "actu",
+   "theme": "IA et tech",
+   "title": {
+    "pt": "Mais de metade das pessoas usa IA",
+    "fr": "Plus de la moitié des gens utilisent l’IA"
+   }
+  },
+  {
+   "id": "2026-12-02",
+   "kind": "actu",
+   "theme": "Business",
+   "title": {
+    "pt": "Portugal vai crescer mais do que a zona euro",
+    "fr": "Le Portugal va croître plus que la zone euro"
+   }
+  },
+  {
+   "id": "2026-12-03",
+   "kind": "actu",
+   "theme": "Infrastructures",
+   "title": {
+    "pt": "Mais metro no Porto",
+    "fr": "Plus de métro à Porto"
+   }
+  },
+  {
+   "id": "2026-12-04",
+   "kind": "actu",
+   "theme": "Géopolitique",
+   "title": {
+    "pt": "Novas sanções contra a Rússia",
+    "fr": "De nouvelles sanctions contre la Russie"
+   }
+  },
+  {
+   "id": "2026-12-05",
+   "kind": "detente",
+   "theme": "Cuisine",
+   "title": {
+    "pt": "Um café e um pastel de nata",
+    "fr": "Un café et un pastel de nata"
+   }
+  },
+  {
+   "id": "2026-12-06",
+   "kind": "detente",
+   "theme": "Sorties",
+   "title": {
+    "pt": "Onde fica a estação?",
+    "fr": "Où est la gare ?"
+   }
+  }
+ ],
+ "reserve": [
+  {
+   "id": "reserve-mercado",
+   "kind": "detente",
+   "theme": "Cuisine",
+   "title": {
+    "pt": "No mercado",
+    "fr": "Au marché"
+   }
+  },
+  {
+   "id": "reserve-comboio",
+   "kind": "detente",
+   "theme": "Voyage",
+   "title": {
+    "pt": "Apanhar o comboio",
+    "fr": "Prendre le train"
+   }
+  },
+  {
+   "id": "reserve-praia",
+   "kind": "detente",
+   "theme": "Voyage",
+   "title": {
+    "pt": "Um dia na praia",
+    "fr": "Une journée à la plage"
+   }
+  }
+ ]
 }

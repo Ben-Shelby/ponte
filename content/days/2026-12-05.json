@@ -1,0 +1,157 @@
+{
+  "id": "2026-12-05",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Cuisine",
+  "level": "A1",
+  "title": {
+    "pt": "Um café e um pastel de nata",
+    "fr": "Un café et un pastel de nata"
+  },
+  "source": null,
+  "paragraphs": [
+    [
+      {
+        "pt": "O Miguel entra numa [[pastelaria|pastelaria]] em Lisboa.",
+        "fr": "Miguel entre dans une pâtisserie à Lisbonne."
+      },
+      {
+        "pt": "— Bom dia! Queria um [[café|cafe]] e um [[pastel de nata|pastel]], por favor.",
+        "fr": "— Bonjour ! Je voudrais un café et un pastel de nata, s’il vous plaît."
+      },
+      {
+        "pt": "— Quer beber aqui ou [[levar|levar]]? — pergunta a [[empregada|empregada]].",
+        "fr": "— Vous voulez boire ici ou emporter ? demande la serveuse."
+      }
+    ],
+    [
+      {
+        "pt": "— Aqui, obrigado. Quanto é?",
+        "fr": "— Ici, merci. C’est combien ?"
+      },
+      {
+        "pt": "— São dois euros e vinte.",
+        "fr": "— Ça fait deux euros vingt."
+      },
+      {
+        "pt": "O Miguel [[paga|pagar]], escolhe uma [[mesa|mesa]] e [[prova|provar]] o pastel.",
+        "fr": "Miguel paie, choisit une table et goûte le pastel."
+      },
+      {
+        "pt": "— Está [[delicioso|delicioso]]!",
+        "fr": "— C’est délicieux !"
+      }
+    ]
+  ],
+  "glossary": {
+    "pastelaria": {
+      "w": "a pastelaria",
+      "fr": "la pâtisserie-café",
+      "note": "Au Portugal, on y boit un café et on mange un pastel de nata.",
+      "new": true
+    },
+    "cafe": {
+      "w": "o café",
+      "fr": "le café",
+      "note": "Au Portugal, un café = un petit expresso.",
+      "new": true
+    },
+    "pastel": {
+      "w": "o pastel de nata",
+      "fr": "le petit flan à la crème",
+      "note": "Pluriel : os pastéis de nata.",
+      "new": true
+    },
+    "levar": {
+      "w": "levar",
+      "fr": "emporter, prendre",
+      "note": "Pour emporter : para levar.",
+      "new": true
+    },
+    "empregada": {
+      "w": "a empregada",
+      "fr": "la serveuse",
+      "note": "Au masculin : o empregado.",
+      "new": true
+    },
+    "pagar": {
+      "w": "pagar",
+      "fr": "payer",
+      "note": "paga : il ou elle paie.",
+      "new": true
+    },
+    "mesa": {
+      "w": "a mesa",
+      "fr": "la table",
+      "note": "Déjà vu dans Uma mesa para dois."
+    },
+    "provar": {
+      "w": "provar",
+      "fr": "goûter, essayer",
+      "note": "prova : il ou elle goûte.",
+      "new": true
+    },
+    "delicioso": {
+      "w": "delicioso",
+      "fr": "délicieux",
+      "note": "Au féminin : deliciosa.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "— Queria um",
+      "answer": "café",
+      "after": "e um pastel de nata, por favor.",
+      "options": [
+        "café",
+        "cafés",
+        "caso"
+      ],
+      "why": "Un seul café : singulier, o café."
+    },
+    {
+      "before": "— Quer beber aqui ou",
+      "answer": "levar",
+      "after": "?",
+      "options": [
+        "levar",
+        "leva",
+        "levo"
+      ],
+      "why": "Après « ou » qui prolonge « quer beber », on garde l’infinitif : levar."
+    },
+    {
+      "before": "O Miguel",
+      "answer": "paga",
+      "after": ", escolhe uma mesa e prova o pastel.",
+      "options": [
+        "paga",
+        "pago",
+        "pagar"
+      ],
+      "why": "Sujet o Miguel (il) : paga."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "Estás numa pastelaria. O que pedes?",
+      "fr": "Tu es dans une pâtisserie-café. Que commandes-tu ?"
+    },
+    "starter": "Queria…",
+    "model": {
+      "pt": "Queria um café e um pastel de nata, por favor.",
+      "fr": "Je voudrais un café et un pastel de nata, s’il vous plaît."
+    },
+    "keywords": [
+      "café",
+      "pastel",
+      "nata",
+      "favor"
+    ],
+    "tip": {
+      "title": "Queria",
+      "text": "Queria est une façon polie de demander, comme « je voudrais ». Tu l’utilises pour commander."
+    }
+  }
+}

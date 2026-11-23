@@ -338,4 +338,214 @@ DESCRIPTION:Ponte · défi oral
 TRIGGER:PT0M
 END:VALARM
 END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-30-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261130T080000
+DURATION:PT5M
+SUMMARY:Ponte · As renováveis dão eletricidade ao país
+DESCRIPTION:Lecture du matin\, 4 minutes : Les renouvelables fournissent l
+ ’électricité du pays\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · As renováveis dão eletricidade ao país
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-11-30-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261130T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-01-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261201T080000
+DURATION:PT5M
+SUMMARY:Ponte · Mais de metade das pessoas usa IA
+DESCRIPTION:Lecture du matin\, 4 minutes : Plus de la moitié des gens util
+ isent l’IA\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Mais de metade das pessoas usa IA
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-01-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261201T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-02-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261202T080000
+DURATION:PT5M
+SUMMARY:Ponte · Portugal vai crescer mais do que a zona euro
+DESCRIPTION:Lecture du matin\, 4 minutes : Le Portugal va croître plus que
+  la zone euro\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Portugal vai crescer mais do que a zona euro
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-02-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261202T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-03-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261203T080000
+DURATION:PT5M
+SUMMARY:Ponte · Mais metro no Porto
+DESCRIPTION:Lecture du matin\, 4 minutes : Plus de métro à Porto\nhttps:/
+ /ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Mais metro no Porto
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-03-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261203T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-04-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261204T080000
+DURATION:PT5M
+SUMMARY:Ponte · Novas sanções contra a Rússia
+DESCRIPTION:Lecture du matin\, 4 minutes : De nouvelles sanctions contre la
+  Russie\nhttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Novas sanções contra a Rússia
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-04-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261204T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-05-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261205T080000
+DURATION:PT5M
+SUMMARY:Ponte · Um café e um pastel de nata
+DESCRIPTION:Lecture du matin\, 4 minutes : Un café et un pastel de nata\nh
+ ttps://ben-shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Um café e um pastel de nata
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-05-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261205T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-06-m@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261206T080000
+DURATION:PT5M
+SUMMARY:Ponte · Onde fica a estação?
+DESCRIPTION:Lecture du matin\, 4 minutes : Où est la gare ?\nhttps://ben-s
+ helby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · Onde fica a estação?
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:ponte-2026-12-06-e@ben-shelby.github.io
+DTSTAMP:20261123T000000Z
+DTSTART:20261206T183000
+DURATION:PT5M
+SUMMARY:Ponte · défi oral
+DESCRIPTION:2 minutes : une question sur l’article du matin.\nhttps://ben
+ -shelby.github.io/ponte/
+URL:https://ben-shelby.github.io/ponte/
+BEGIN:VALARM
+ACTION:DISPLAY
+DESCRIPTION:Ponte · défi oral
+TRIGGER:PT0M
+END:VALARM
+END:VEVENT
 END:VCALENDAR

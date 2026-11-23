@@ -1,0 +1,144 @@
+{
+  "id": "2026-12-02",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Business",
+  "level": "A1",
+  "title": {
+    "pt": "Portugal vai crescer mais do que a zona euro",
+    "fr": "Le Portugal va croître plus que la zone euro"
+  },
+  "source": {
+    "name": "Jornal Económico",
+    "url": "https://jornaleconomico.sapo.pt/noticias/economia-portuguesa-devera-crescer-23-em-2026-e-19-em-2027-aponta-kpmg/"
+  },
+  "paragraphs": [
+    [
+      {
+        "pt": "A KPMG [[prevê|prever]] que a [[economia|economia]] portuguesa vai crescer 2,3 % este ano.",
+        "fr": "KPMG prévoit que l’économie portugaise va croître de 2,3 % cette année."
+      },
+      {
+        "pt": "Em 2027, o [[crescimento|crescimento]] vai ser de 1,9 %.",
+        "fr": "En 2027, la croissance va être de 1,9 %."
+      },
+      {
+        "pt": "Portugal vai crescer mais do que a [[média|media]] da zona euro.",
+        "fr": "Le Portugal va croître plus que la moyenne de la zone euro."
+      }
+    ],
+    [
+      {
+        "pt": "A economia é tudo o que um país [[produz|produzir]] e vende.",
+        "fr": "L’économie, c’est tout ce qu’un pays produit et vend."
+      },
+      {
+        "pt": "Quando a economia cresce, há mais [[trabalho|trabalho]].",
+        "fr": "Quand l’économie croît, il y a plus de travail."
+      },
+      {
+        "pt": "Mas é só uma [[previsão|previsao]]: o futuro pode mudar.",
+        "fr": "Mais ce n’est qu’une prévision : l’avenir peut changer."
+      }
+    ]
+  ],
+  "glossary": {
+    "prever": {
+      "w": "prever",
+      "fr": "prévoir",
+      "note": "prevê : il ou elle prévoit. Verbe dérivé de ver (voir).",
+      "new": true
+    },
+    "economia": {
+      "w": "a economia",
+      "fr": "l’économie",
+      "note": "Un seul c en moins qu’en français : pas de accent circonflexe.",
+      "new": true
+    },
+    "crescimento": {
+      "w": "o crescimento",
+      "fr": "la croissance",
+      "note": "Du verbe crescer.",
+      "new": true
+    },
+    "media": {
+      "w": "a média",
+      "fr": "la moyenne",
+      "note": "Accent sur le é.",
+      "new": true
+    },
+    "produzir": {
+      "w": "produzir",
+      "fr": "produire",
+      "note": "produz : il ou elle produit."
+    },
+    "trabalho": {
+      "w": "o trabalho",
+      "fr": "le travail",
+      "note": "Aussi : o emprego pour un poste.",
+      "new": true
+    },
+    "previsao": {
+      "w": "a previsão",
+      "fr": "la prévision",
+      "note": "Pluriel : as previsões.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "A KPMG",
+      "answer": "prevê",
+      "after": "que a economia portuguesa vai crescer 2,3 %.",
+      "options": [
+        "prevê",
+        "prevêm",
+        "prever"
+      ],
+      "why": "A KPMG est une seule entreprise : il ou elle prévoit = prevê."
+    },
+    {
+      "before": "Em 2027, o",
+      "answer": "crescimento",
+      "after": "vai ser de 1,9 %.",
+      "options": [
+        "crescimento",
+        "crescer",
+        "cresceu"
+      ],
+      "why": "Après « o », il faut un nom : o crescimento."
+    },
+    {
+      "before": "Portugal vai crescer",
+      "answer": "mais",
+      "after": "do que a média da zona euro.",
+      "options": [
+        "mais",
+        "muito",
+        "menos"
+      ],
+      "why": "Pour comparer : mais … do que (plus que)."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "O que vai acontecer à economia portuguesa?",
+      "fr": "Que va-t-il arriver à l’économie portugaise ?"
+    },
+    "starter": "A economia vai…",
+    "model": {
+      "pt": "A economia portuguesa vai crescer este ano.",
+      "fr": "L’économie portugaise va croître cette année."
+    },
+    "keywords": [
+      "economia",
+      "vai",
+      "crescer",
+      "ano"
+    ],
+    "tip": {
+      "title": "Ir + infinitif",
+      "text": "Pour le futur proche : vai + infinitif. A economia vai crescer."
+    }
+  }
+}

@@ -1,0 +1,146 @@
+{
+  "id": "2026-12-04",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Géopolitique",
+  "level": "A1",
+  "title": {
+    "pt": "Novas sanções contra a Rússia",
+    "fr": "De nouvelles sanctions contre la Russie"
+  },
+  "source": {
+    "name": "Jornal Económico",
+    "url": "https://jornaleconomico.sapo.pt/noticias/kallas-vai-propor-22-o-pacote-de-sancoes-da-ue-contra-a-russia/"
+  },
+  "paragraphs": [
+    [
+      {
+        "pt": "A União Europeia [[prepara|preparar]] novas [[sanções|sancao]] contra a Rússia.",
+        "fr": "L’Union européenne prépare de nouvelles sanctions contre la Russie."
+      },
+      {
+        "pt": "Kaja Kallas, responsável pela política externa, vai [[propor|propor]] o 22.º [[pacote|pacote]].",
+        "fr": "Kaja Kallas, responsable de la politique extérieure, va proposer le 22e paquet."
+      },
+      {
+        "pt": "Um pacote é um conjunto de medidas.",
+        "fr": "Un paquet est un ensemble de mesures."
+      }
+    ],
+    [
+      {
+        "pt": "Estas medidas [[servem|servir]] para [[pressionar|pressionar]] a Rússia por causa da [[guerra|guerra]].",
+        "fr": "Ces mesures servent à faire pression sur la Russie à cause de la guerre."
+      },
+      {
+        "pt": "Para ser aprovado, cada país da UE tem de dar o seu [[acordo|acordo]].",
+        "fr": "Pour être adopté, chaque pays de l’UE doit donner son accord."
+      }
+    ]
+  ],
+  "glossary": {
+    "preparar": {
+      "w": "preparar",
+      "fr": "préparer",
+      "note": "prepara : il ou elle prépare.",
+      "new": true
+    },
+    "sancao": {
+      "w": "a sanção",
+      "fr": "la sanction",
+      "note": "Pluriel : as sanções (-ão devient -ões).",
+      "new": true
+    },
+    "propor": {
+      "w": "propor",
+      "fr": "proposer",
+      "note": "vai propor : il va proposer.",
+      "new": true
+    },
+    "pacote": {
+      "w": "o pacote",
+      "fr": "le paquet",
+      "note": "Aussi un colis.",
+      "new": true
+    },
+    "servir": {
+      "w": "servir",
+      "fr": "servir",
+      "note": "servem : ils servent. servir para = servir à."
+    },
+    "pressionar": {
+      "w": "pressionar",
+      "fr": "faire pression sur",
+      "note": "Mot transparent : pression = pressão.",
+      "new": true
+    },
+    "guerra": {
+      "w": "a guerra",
+      "fr": "la guerre",
+      "note": "Deux r : guerra.",
+      "new": true
+    },
+    "acordo": {
+      "w": "o acordo",
+      "fr": "l’accord",
+      "note": "dar o acordo = donner son accord.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "A União Europeia",
+      "answer": "prepara",
+      "after": "novas sanções contra a Rússia.",
+      "options": [
+        "prepara",
+        "preparam",
+        "preparar"
+      ],
+      "why": "A União Europeia est singulier : prepara."
+    },
+    {
+      "before": "Kallas vai",
+      "answer": "propor",
+      "after": "o 22.º pacote.",
+      "options": [
+        "propor",
+        "propõe",
+        "propus"
+      ],
+      "why": "vai + infinitif : vai propor."
+    },
+    {
+      "before": "Estas medidas servem para",
+      "answer": "pressionar",
+      "after": "a Rússia.",
+      "options": [
+        "pressionar",
+        "pressiona",
+        "pressão"
+      ],
+      "why": "Après « para », on met l’infinitif : para pressionar."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "O que é que a UE prepara?",
+      "fr": "Que prépare l’UE ?"
+    },
+    "starter": "A UE prepara…",
+    "model": {
+      "pt": "A UE prepara novas sanções contra a Rússia.",
+      "fr": "L’UE prépare de nouvelles sanctions contre la Russie."
+    },
+    "keywords": [
+      "prepara",
+      "novas",
+      "sanções",
+      "Rússia"
+    ],
+    "tip": {
+      "title": "Sanção → sanções",
+      "text": "Les noms en -ão font souvent -ões au pluriel : uma sanção, duas sanções."
+    }
+  }
+}

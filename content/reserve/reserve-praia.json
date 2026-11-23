@@ -1,0 +1,146 @@
+{
+  "id": "reserve-praia",
+  "lang": "pt",
+  "kind": "detente",
+  "theme": "Voyage",
+  "level": "A1",
+  "title": {
+    "pt": "Um dia na praia",
+    "fr": "Une journée à la plage"
+  },
+  "source": null,
+  "paragraphs": [
+    [
+      {
+        "pt": "É [[verão|verao]] e a família vai à [[praia|praia]].",
+        "fr": "C’est l’été et la famille va à la plage."
+      },
+      {
+        "pt": "O [[mar|mar]] está [[calmo|calmo]] e a água está fria.",
+        "fr": "La mer est calme et l’eau est froide."
+      },
+      {
+        "pt": "O pai [[põe|por]] o guarda-sol na [[areia|areia]].",
+        "fr": "Le père plante le parasol dans le sable."
+      }
+    ],
+    [
+      {
+        "pt": "A Marta [[nada|nadar]] com o irmão.",
+        "fr": "Marta nage avec son frère."
+      },
+      {
+        "pt": "Ao almoço, comem peixe grelhado.",
+        "fr": "À midi, ils mangent du poisson grillé."
+      },
+      {
+        "pt": "À tarde, todos [[descansam|descansar]] ao sol.",
+        "fr": "L’après-midi, tout le monde se repose au soleil."
+      }
+    ]
+  ],
+  "glossary": {
+    "verao": {
+      "w": "o verão",
+      "fr": "l’été",
+      "note": "Pluriel : os verões.",
+      "new": true
+    },
+    "praia": {
+      "w": "a praia",
+      "fr": "la plage",
+      "note": "Se prononce « praya ».",
+      "new": true
+    },
+    "mar": {
+      "w": "o mar",
+      "fr": "la mer",
+      "note": "Mot masculin : o mar.",
+      "new": true
+    },
+    "calmo": {
+      "w": "calmo",
+      "fr": "calme",
+      "note": "Au féminin : calma.",
+      "new": true
+    },
+    "por": {
+      "w": "pôr",
+      "fr": "mettre, poser",
+      "note": "põe : il ou elle met.",
+      "new": true
+    },
+    "areia": {
+      "w": "a areia",
+      "fr": "le sable",
+      "note": "Mot féminin.",
+      "new": true
+    },
+    "nadar": {
+      "w": "nadar",
+      "fr": "nager",
+      "note": "nada : il ou elle nage.",
+      "new": true
+    },
+    "descansar": {
+      "w": "descansar",
+      "fr": "se reposer",
+      "note": "descansam : ils se reposent."
+    }
+  },
+  "cloze": [
+    {
+      "before": "É verão e a família vai à",
+      "answer": "praia",
+      "after": ".",
+      "options": [
+        "praia",
+        "praça",
+        "prata"
+      ],
+      "why": "Praia = plage ; praça = place : mots voisins."
+    },
+    {
+      "before": "O mar está",
+      "answer": "calmo",
+      "after": "e a água está fria.",
+      "options": [
+        "calmo",
+        "calma",
+        "calmos"
+      ],
+      "why": "O mar est masculin singulier : calmo."
+    },
+    {
+      "before": "A Marta",
+      "answer": "nada",
+      "after": "com o irmão.",
+      "options": [
+        "nada",
+        "nadam",
+        "nadar"
+      ],
+      "why": "Sujet a Marta (elle) : nada."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "Vais à praia no verão. O que fazes?",
+      "fr": "Tu vas à la plage en été. Que fais-tu ?"
+    },
+    "starter": "No verão, eu…",
+    "model": {
+      "pt": "No verão, eu nado no mar e descanso.",
+      "fr": "En été, je nage dans la mer et je me repose."
+    },
+    "keywords": [
+      "nado",
+      "mar",
+      "descanso"
+    ],
+    "tip": {
+      "title": "Nada ou nado ?",
+      "text": "nada = il/elle nage ; nado = je nage. Attention : nada veut aussi dire « rien »."
+    }
+  }
+}

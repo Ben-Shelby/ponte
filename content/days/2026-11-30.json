@@ -1,0 +1,155 @@
+{
+  "id": "2026-11-30",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Énergie",
+  "level": "A1",
+  "title": {
+    "pt": "As renováveis dão eletricidade ao país",
+    "fr": "Les renouvelables fournissent l’électricité du pays"
+  },
+  "source": {
+    "name": "Jornal Económico",
+    "url": "https://jornaleconomico.sapo.pt/noticias/renovaveis-asseguram-73-da-producao-eletrica-em-portugal-ate-outubro-segundo-a-apren/"
+  },
+  "paragraphs": [
+    [
+      {
+        "pt": "Em Portugal, a eletricidade [[vem|vir]] cada vez mais de fontes [[renováveis|renovavel]].",
+        "fr": "Au Portugal, l’électricité vient de plus en plus de sources renouvelables."
+      },
+      {
+        "pt": "O [[vento|vento]], a água e os [[painéis solares|painel]] [[produzem|produzir]] energia limpa.",
+        "fr": "Le vent, l’eau et les panneaux solaires produisent de l’énergie propre."
+      },
+      {
+        "pt": "Segundo a APREN, até outubro, as renováveis [[representam|representar]] 73 % da eletricidade no continente.",
+        "fr": "Selon l’APREN, jusqu’en octobre, les renouvelables représentent 73 % de l’électricité sur le continent."
+      }
+    ],
+    [
+      {
+        "pt": "Isto ajuda o país a [[poupar|poupar]] dinheiro.",
+        "fr": "Cela aide le pays à économiser de l’argent."
+      },
+      {
+        "pt": "Portugal precisa de comprar menos gás e menos eletricidade ao [[estrangeiro|estrangeiro]].",
+        "fr": "Le Portugal a besoin d’acheter moins de gaz et moins d’électricité à l’étranger."
+      },
+      {
+        "pt": "É uma boa notícia para o [[ambiente|ambiente]].",
+        "fr": "C’est une bonne nouvelle pour l’environnement."
+      }
+    ]
+  ],
+  "glossary": {
+    "vir": {
+      "w": "vir",
+      "fr": "venir",
+      "note": "vem : il ou elle vient.",
+      "new": true
+    },
+    "renovavel": {
+      "w": "renovável",
+      "fr": "renouvelable",
+      "note": "Pluriel : renováveis. Au Portugal, le mot se termine en -ável comme en français « -able ».",
+      "new": true
+    },
+    "vento": {
+      "w": "o vento",
+      "fr": "le vent",
+      "note": "Pas de lien avec « vent » écrit en français : le mot portugais est masculin.",
+      "new": true
+    },
+    "painel": {
+      "w": "o painel solar",
+      "fr": "le panneau solaire",
+      "note": "Pluriel : os painéis solares."
+    },
+    "produzir": {
+      "w": "produzir",
+      "fr": "produire",
+      "note": "produzem : ils produisent.",
+      "new": true
+    },
+    "representar": {
+      "w": "representar",
+      "fr": "représenter",
+      "note": "representam : ils représentent."
+    },
+    "poupar": {
+      "w": "poupar",
+      "fr": "économiser, épargner",
+      "note": "Un verbe très utile pour parler d’argent.",
+      "new": true
+    },
+    "estrangeiro": {
+      "w": "o estrangeiro",
+      "fr": "l’étranger",
+      "note": "ao estrangeiro = à l’étranger.",
+      "new": true
+    },
+    "ambiente": {
+      "w": "o ambiente",
+      "fr": "l’environnement",
+      "note": "Mot transparent pour un francophone.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "Em Portugal, a eletricidade",
+      "answer": "vem",
+      "after": "cada vez mais de fontes renováveis.",
+      "options": [
+        "vem",
+        "vêm",
+        "venho"
+      ],
+      "why": "A eletricidade est au singulier : il ou elle vient = vem."
+    },
+    {
+      "before": "O vento, a água e os painéis solares",
+      "answer": "produzem",
+      "after": "energia limpa.",
+      "options": [
+        "produzem",
+        "produz",
+        "produzir"
+      ],
+      "why": "Sujet pluriel (le vent, l’eau, les panneaux) : produzem."
+    },
+    {
+      "before": "Isto ajuda o país a",
+      "answer": "poupar",
+      "after": "dinheiro.",
+      "options": [
+        "poupar",
+        "pouparam",
+        "poupa"
+      ],
+      "why": "Après « a », on met l’infinitif : ajuda a poupar."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "De onde vem a eletricidade em Portugal?",
+      "fr": "D’où vient l’électricité au Portugal ?"
+    },
+    "starter": "A eletricidade vem…",
+    "model": {
+      "pt": "A eletricidade vem do vento, da água e do sol.",
+      "fr": "L’électricité vient du vent, de l’eau et du soleil."
+    },
+    "keywords": [
+      "vem",
+      "vento",
+      "água",
+      "sol"
+    ],
+    "tip": {
+      "title": "De + article",
+      "text": "de + o = do ; de + a = da. On dit do vento, da água, do sol."
+    }
+  }
+}

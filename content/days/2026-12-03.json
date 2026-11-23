@@ -1,0 +1,149 @@
+{
+  "id": "2026-12-03",
+  "lang": "pt",
+  "kind": "actu",
+  "theme": "Infrastructures",
+  "level": "A1",
+  "title": {
+    "pt": "Mais metro no Porto",
+    "fr": "Plus de métro à Porto"
+  },
+  "source": {
+    "name": "The Portugal News",
+    "url": "https://www.theportugalnews.com/news/2026-11-05/portugal-plans-major-porto-metro-expansion/1111522"
+  },
+  "paragraphs": [
+    [
+      {
+        "pt": "O Governo quer [[estudar|estudar]] um metro maior no Porto.",
+        "fr": "Le gouvernement veut étudier un métro plus grand à Porto."
+      },
+      {
+        "pt": "O novo [[troço|troco]] vai [[ligar|ligar]] o Porto às cidades a [[sul|sul]].",
+        "fr": "Le nouveau tronçon va relier Porto aux villes du sud."
+      },
+      {
+        "pt": "Assim, cerca de 400 mil pessoas podem ter o metro mais [[perto|perto]].",
+        "fr": "Ainsi, environ 400 000 personnes pourraient avoir le métro plus près."
+      }
+    ],
+    [
+      {
+        "pt": "Tal como o [[comboio|comboio]], o metro é [[rápido|rapido]].",
+        "fr": "Comme le train, le métro est rapide."
+      },
+      {
+        "pt": "E evita o [[trânsito|transito]].",
+        "fr": "Et il évite la circulation."
+      },
+      {
+        "pt": "Mas é só o começo: primeiro vêm os estudos.",
+        "fr": "Mais ce n’est que le début : d’abord viennent les études."
+      }
+    ]
+  ],
+  "glossary": {
+    "estudar": {
+      "w": "estudar",
+      "fr": "étudier",
+      "note": "Estudo = une étude ; estudos = les études.",
+      "new": true
+    },
+    "troco": {
+      "w": "o troço",
+      "fr": "le tronçon",
+      "note": "Un troço est un morceau de ligne ou de route."
+    },
+    "ligar": {
+      "w": "ligar",
+      "fr": "relier, allumer, appeler",
+      "note": "Un verbe à plusieurs sens : ligar o metro à cidade, ligar a luz.",
+      "new": true
+    },
+    "sul": {
+      "w": "o sul",
+      "fr": "le sud",
+      "note": "Le nord : o norte.",
+      "new": true
+    },
+    "perto": {
+      "w": "perto",
+      "fr": "près",
+      "note": "Le contraire : longe.",
+      "new": true
+    },
+    "comboio": {
+      "w": "o comboio",
+      "fr": "le train",
+      "note": "Au Portugal : comboio. Au Brésil, on dit trem."
+    },
+    "rapido": {
+      "w": "rápido",
+      "fr": "rapide",
+      "note": "Accent sur le á.",
+      "new": true
+    },
+    "transito": {
+      "w": "o trânsito",
+      "fr": "la circulation",
+      "note": "Accent circonflexe sur le â.",
+      "new": true
+    }
+  },
+  "cloze": [
+    {
+      "before": "O Governo quer",
+      "answer": "estudar",
+      "after": "um metro maior no Porto.",
+      "options": [
+        "estudar",
+        "estudo",
+        "estuda"
+      ],
+      "why": "Après quer (veut), on met l’infinitif : quer estudar."
+    },
+    {
+      "before": "O novo troço vai",
+      "answer": "ligar",
+      "after": "o Porto às cidades a sul.",
+      "options": [
+        "ligar",
+        "liga",
+        "ligam"
+      ],
+      "why": "vai + infinitif : vai ligar."
+    },
+    {
+      "before": "Tal como o comboio, o metro é",
+      "answer": "rápido",
+      "after": ".",
+      "options": [
+        "rápido",
+        "rápida",
+        "rápidos"
+      ],
+      "why": "O metro est masculin singulier : rápido."
+    }
+  ],
+  "oral": {
+    "question": {
+      "pt": "O que é que o Governo quer estudar?",
+      "fr": "Qu’est-ce que le gouvernement veut étudier ?"
+    },
+    "starter": "O Governo quer…",
+    "model": {
+      "pt": "O Governo quer estudar mais metro no Porto.",
+      "fr": "Le gouvernement veut étudier plus de métro à Porto."
+    },
+    "keywords": [
+      "Governo",
+      "estudar",
+      "metro",
+      "Porto"
+    ],
+    "tip": {
+      "title": "Quer + infinitif",
+      "text": "Après quer, le verbe reste à l’infinitif : quer estudar, quer ligar."
+    }
+  }
+}
